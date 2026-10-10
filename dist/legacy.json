@@ -1,0 +1,1200 @@
+{
+  "source": "01-Adversary-Forge-Make-a-Copy-.xlsx",
+  "entries": [
+    {
+      "category": "Threat baseline",
+      "title": "Vermin",
+      "text": "Code: 1.0\nSTR1000: 60.0\nRES1000: 55.0\nCHA1000: 50.0\nDEX1000: 70.0\nAGI1000: 80.0\nVit1000: 510.0\nVit/Step: 135.0\nHP1000: 160.0\nHP/Step: 45.0\nAcc1000: 18.0\nDodge1000: 10.0\nAP Base: 5.0\nMutation Budget: 2.0\nAwareness: 10.0\nResistance: 8.0\nSurvival: 12.0\nAthletics: 8.0\nChakra Control: 6.0\nBase Dice: 4.0\nDie Size: 6.0\nStatus Base: 2.0\nCost Base: 8.0\nFrame Trait: Swarm / vermin frame: built for routine infestation, attrition, or nuisance pressure.\nEncounter Intent: Routine infestation / attrition\nMinor Slot: 0.0\nMajor 1: 1.0\nMajor 2: 0.0\nMajor 3: 0.0\nApex Slot: 0.0"
+    },
+    {
+      "category": "Threat baseline",
+      "title": "Predator",
+      "text": "Code: 2.0\nSTR1000: 70.0\nRES1000: 65.0\nCHA1000: 60.0\nDEX1000: 80.0\nAGI1000: 85.0\nVit1000: 750.0\nVit/Step: 168.75\nHP1000: 228.0\nHP/Step: 54.0\nAcc1000: 20.0\nDodge1000: 13.0\nAP Base: 8.0\nMutation Budget: 3.0\nAwareness: 13.0\nResistance: 10.0\nSurvival: 14.0\nAthletics: 12.0\nChakra Control: 8.0\nBase Dice: 5.0\nDie Size: 8.0\nStatus Base: 2.0\nCost Base: 10.0\nFrame Trait: Predator frame: a hard hunting target with enough tempo to pressure a small squad.\nEncounter Intent: Hard hunt / dangerous local predator\nMinor Slot: 1.0\nMajor 1: 1.0\nMajor 2: 0.0\nMajor 3: 0.0\nApex Slot: 0.0"
+    },
+    {
+      "category": "Threat baseline",
+      "title": "Great Beast",
+      "text": "Code: 3.0\nSTR1000: 85.0\nRES1000: 85.0\nCHA1000: 70.0\nDEX1000: 70.0\nAGI1000: 65.0\nVit1000: 1224.0\nVit/Step: 216.0\nHP1000: 360.0\nHP/Step: 67.5\nAcc1000: 20.0\nDodge1000: 10.0\nAP Base: 10.0\nMutation Budget: 4.0\nAwareness: 12.0\nResistance: 14.0\nSurvival: 13.0\nAthletics: 14.0\nChakra Control: 10.0\nBase Dice: 7.0\nDie Size: 10.0\nStatus Base: 3.0\nCost Base: 12.0\nFrame Trait: Great Beast Frame — Minor Wounds are tracked but have no mechanical effect.\nEncounter Intent: Prepared hunt / serious crew target\nMinor Slot: 0.0\nMajor 1: 1.0\nMajor 2: 1.0\nMajor 3: 0.0\nApex Slot: 0.0"
+    },
+    {
+      "category": "Threat baseline",
+      "title": "Dread Beast",
+      "text": "Code: 4.0\nSTR1000: 95.0\nRES1000: 95.0\nCHA1000: 80.0\nDEX1000: 75.0\nAGI1000: 75.0\nVit1000: 1881.0\nVit/Step: 297.0\nHP1000: 540.0\nHP/Step: 90.0\nAcc1000: 22.0\nDodge1000: 11.0\nAP Base: 13.0\nMutation Budget: 5.0\nAwareness: 15.0\nResistance: 16.0\nSurvival: 16.0\nAthletics: 16.0\nChakra Control: 14.0\nBase Dice: 9.0\nDie Size: 10.0\nStatus Base: 4.0\nCost Base: 14.0\nFrame Trait: Dread Frame — Minor Wounds have no mechanical effect; the first Major Wound each 20 IC is mechanically reduced to Minor.\nEncounter Intent: Deadly set-piece / regional apex\nMinor Slot: 1.0\nMajor 1: 1.0\nMajor 2: 1.0\nMajor 3: 0.0\nApex Slot: 0.0"
+    },
+    {
+      "category": "Threat baseline",
+      "title": "Titan",
+      "text": "Code: 5.0\nSTR1000: 120.0\nRES1000: 125.0\nCHA1000: 100.0\nDEX1000: 65.0\nAGI1000: 50.0\nVit1000: 4440.0\nVit/Step: 540.0\nHP1000: 1225.0\nHP/Step: 157.5\nAcc1000: 22.0\nDodge1000: 8.0\nAP Base: 17.0\nMutation Budget: 6.0\nAwareness: 14.0\nResistance: 20.0\nSurvival: 15.0\nAthletics: 18.0\nChakra Control: 16.0\nBase Dice: 12.0\nDie Size: 12.0\nStatus Base: 5.0\nCost Base: 18.0\nFrame Trait: Titan Frame — Ignore mechanical effects of Minor and Major Wounds. Each 25% Vitality lost exposes a temporary breach or objective.\nEncounter Intent: Raid objective / Haven-scale threat\nMinor Slot: 0.0\nMajor 1: 1.0\nMajor 2: 1.0\nMajor 3: 1.0\nApex Slot: 0.0"
+    },
+    {
+      "category": "Threat baseline",
+      "title": "Calamity",
+      "text": "Code: 6.0\nSTR1000: 135.0\nRES1000: 140.0\nCHA1000: 130.0\nDEX1000: 70.0\nAGI1000: 65.0\nVit1000: 7470.0\nVit/Step: 810.0\nHP1000: 2050.0\nHP/Step: 225.0\nAcc1000: 24.0\nDodge1000: 9.0\nAP Base: 20.0\nMutation Budget: 7.0\nAwareness: 18.0\nResistance: 24.0\nSurvival: 20.0\nAthletics: 20.0\nChakra Control: 22.0\nBase Dice: 14.0\nDie Size: 12.0\nStatus Base: 6.0\nCost Base: 22.0\nFrame Trait: Calamity Frame — Standard Wound tables do not apply. At 75/50/25% Vitality trigger a Disruption and expose an objective.\nEncounter Intent: Disaster encounter / survival and redirection\nMinor Slot: 0.0\nMajor 1: 1.0\nMajor 2: 1.0\nMajor 3: 0.0\nApex Slot: 1.0"
+    },
+    {
+      "category": "Role",
+      "title": "Bruiser",
+      "text": "Code: 1.0\nSTR Mod: 15.0\nRES Mod: 5.0\nCHA Mod: -10.0\nDEX Mod: -5.0\nAGI Mod: -5.0\nVitality Mult: 1.05\nAcc Mod: 0.0\nDodge Mod: -1.0\nRole Trait: Bruiser Instinct — Gains +15% damage against a target it has already damaged since its last action."
+    },
+    {
+      "category": "Role",
+      "title": "Skirmisher",
+      "text": "Code: 2.0\nSTR Mod: -5.0\nRES Mod: -10.0\nCHA Mod: -5.0\nDEX Mod: 5.0\nAGI Mod: 15.0\nVitality Mult: 0.9\nAcc Mod: 1.0\nDodge Mod: 2.0\nRole Trait: Skirmisher Instinct — Once per 10 IC after a successful Dodge, move 3 yards without shifting initiative."
+    },
+    {
+      "category": "Role",
+      "title": "Controller",
+      "text": "Code: 3.0\nSTR Mod: -10.0\nRES Mod: 0.0\nCHA Mod: 15.0\nDEX Mod: 5.0\nAGI Mod: -10.0\nVitality Mult: 0.95\nAcc Mod: 1.0\nDodge Mod: 0.0\nRole Trait: Controller Instinct — The first status effect it inflicts each 20 IC gains +1 severity."
+    },
+    {
+      "category": "Role",
+      "title": "Artillery",
+      "text": "Code: 4.0\nSTR Mod: -10.0\nRES Mod: -10.0\nCHA Mod: 15.0\nDEX Mod: 10.0\nAGI Mod: -5.0\nVitality Mult: 0.9\nAcc Mod: 1.0\nDodge Mod: 0.0\nRole Trait: Artillery Instinct — Attacks made from 12+ yards away gain +1 Accuracy."
+    },
+    {
+      "category": "Role",
+      "title": "Ambusher",
+      "text": "Code: 5.0\nSTR Mod: 0.0\nRES Mod: -10.0\nCHA Mod: 0.0\nDEX Mod: 10.0\nAGI Mod: 10.0\nVitality Mult: 0.9\nAcc Mod: 1.0\nDodge Mod: 1.0\nRole Trait: Ambusher Instinct — Its first damaging attack from Stealth treats 5 IC of preparation as sufficient for a Sneak Attack."
+    },
+    {
+      "category": "Role",
+      "title": "Grappler",
+      "text": "Code: 6.0\nSTR Mod: 15.0\nRES Mod: 10.0\nCHA Mod: -10.0\nDEX Mod: -5.0\nAGI Mod: -10.0\nVitality Mult: 1.05\nAcc Mod: 0.0\nDodge Mod: -1.0\nRole Trait: Grappler Instinct — Gains +3 on Athletics rolls to establish or maintain Grapples."
+    },
+    {
+      "category": "Role",
+      "title": "Tank",
+      "text": "Code: 7.0\nSTR Mod: 5.0\nRES Mod: 20.0\nCHA Mod: -5.0\nDEX Mod: -10.0\nAGI Mod: -10.0\nVitality Mult: 1.15\nAcc Mod: -1.0\nDodge Mod: -1.0\nRole Trait: Tank Instinct — The first attack it Blocks each 20 IC reduces an additional 10% final damage."
+    },
+    {
+      "category": "Role",
+      "title": "Swarm",
+      "text": "Code: 8.0\nSTR Mod: -10.0\nRES Mod: -5.0\nCHA Mod: 0.0\nDEX Mod: 10.0\nAGI Mod: 5.0\nVitality Mult: 0.85\nAcc Mod: 1.0\nDodge Mod: 1.0\nRole Trait: Swarm Body — Non-Area melee attacks deal 25% less final damage; Area attacks deal 20% more final damage."
+    },
+    {
+      "category": "Body",
+      "title": "Jackal",
+      "text": "Description: long-legged hunting canine\nSalvage: spring tendons and pressure-sensitive paw pads\nFavoured Terrain: Open ground"
+    },
+    {
+      "category": "Body",
+      "title": "Lynx",
+      "text": "Description: lean ambush cat\nSalvage: sensory whiskers and hollow claws\nFavoured Terrain: Forest / ruins"
+    },
+    {
+      "category": "Body",
+      "title": "Boar",
+      "text": "Description: heavy plated boar\nSalvage: dense tusks and high-tension tendon\nFavoured Terrain: Forest / rubble"
+    },
+    {
+      "category": "Body",
+      "title": "Mantis",
+      "text": "Description: towering predatory mantis\nSalvage: foreblade edges and resonance chitin\nFavoured Terrain: Forest / ruins"
+    },
+    {
+      "category": "Body",
+      "title": "Salamander",
+      "text": "Description: broad chakra-active salamander\nSalvage: pressure sacs and regenerative tissue\nFavoured Terrain: Water / marsh"
+    },
+    {
+      "category": "Body",
+      "title": "Bear",
+      "text": "Description: scarred apex bear\nSalvage: dense bone and scent glands\nFavoured Terrain: Forest / mountain"
+    },
+    {
+      "category": "Body",
+      "title": "Crocodile",
+      "text": "Description: moss-backed crocodilian\nSalvage: armour plates and pressure glands\nFavoured Terrain: Marsh / river"
+    },
+    {
+      "category": "Body",
+      "title": "Ape",
+      "text": "Description: massive long-armed ape\nSalvage: shock-absorbing cartilage and heavy tendon\nFavoured Terrain: Ruins / mountain"
+    },
+    {
+      "category": "Body",
+      "title": "Roc",
+      "text": "Description: iron-feathered hunting bird\nSalvage: lift tendons and conductive feathers\nFavoured Terrain: Cliffs / open sky"
+    },
+    {
+      "category": "Body",
+      "title": "Serpent",
+      "text": "Description: many-coiled serpent\nSalvage: venom sacs and flexible scale\nFavoured Terrain: Marsh / jungle"
+    },
+    {
+      "category": "Body",
+      "title": "Rat-King",
+      "text": "Description: fused colony of oversized rats\nSalvage: pheromone glands and chakra-rich core\nFavoured Terrain: Ruins / sewer"
+    },
+    {
+      "category": "Body",
+      "title": "Locust Cloud",
+      "text": "Description: razor-winged locust swarm\nSalvage: wing-glass and crop enzymes\nFavoured Terrain: Open country"
+    },
+    {
+      "category": "Body",
+      "title": "Tortoise",
+      "text": "Description: fortress-shelled tortoise\nSalvage: shell stone and ancient resin\nFavoured Terrain: Plains / forest"
+    },
+    {
+      "category": "Body",
+      "title": "Gorilla",
+      "text": "Description: broad-backed gorilla\nSalvage: basalt-like plates and tendon\nFavoured Terrain: Mountain / ruins"
+    },
+    {
+      "category": "Body",
+      "title": "Moth",
+      "text": "Description: powder-winged giant moth\nSalvage: luminous scales and silk glands\nFavoured Terrain: Forest / night"
+    },
+    {
+      "category": "Body",
+      "title": "Beetle",
+      "text": "Description: armoured chakra beetle\nSalvage: shell plates and lift muscle\nFavoured Terrain: Forest / open sky"
+    },
+    {
+      "category": "Body",
+      "title": "Scorpion",
+      "text": "Description: oversized burrowing scorpion\nSalvage: venom gland and tail cartilage\nFavoured Terrain: Desert / ruins"
+    },
+    {
+      "category": "Body",
+      "title": "Hyena",
+      "text": "Description: long-jawed pack hunter\nSalvage: crushing jawbone and scent tissue\nFavoured Terrain: Wastes / scrub"
+    },
+    {
+      "category": "Body",
+      "title": "Elk",
+      "text": "Description: towering antlered herbivore\nSalvage: antler material and heat-resistant hide\nFavoured Terrain: Forest / plains"
+    },
+    {
+      "category": "Body",
+      "title": "Wyrm",
+      "text": "Description: limbless burrowing wyrm\nSalvage: vibration organs and tunnelling lubricant\nFavoured Terrain: Underground / desert"
+    },
+    {
+      "category": "Body",
+      "title": "Leech Colony",
+      "text": "Description: knotted mass of giant leeches\nSalvage: anticoagulant glands and regenerative mucus\nFavoured Terrain: Marsh / sewer"
+    },
+    {
+      "category": "Body",
+      "title": "Crab",
+      "text": "Description: boulder-shelled giant crab\nSalvage: pressure-resistant shell and joint meat\nFavoured Terrain: Coast / river"
+    },
+    {
+      "category": "Body",
+      "title": "Hound",
+      "text": "Description: heavy-chested hunting hound\nSalvage: scent organs and spring tendons\nFavoured Terrain: Urban / wastes"
+    },
+    {
+      "category": "Body",
+      "title": "Panther",
+      "text": "Description: light-absorbing hunting cat\nSalvage: ocular membranes and flexible hide\nFavoured Terrain: Forest / night"
+    },
+    {
+      "category": "Minor mutation",
+      "title": "Heat-Seeking Organs",
+      "text": "Prefix: Cinder\nTrait: Tracks recent chakra use through heat and metabolic disturbance; ignores up to 3 Visibility when locating a creature that spent Chakra in the last 10 IC.\nRider: Against targets that spent Chakra since their last action, gains +1 Accuracy.\nCounterplay: Heavy rain, cold water and insulated cover confuse the organs.\nSalvage: heat-sensing membranes\nSTR: 0.0\nRES: 0.0\nCHA: 0.0\nDEX: 0.0\nAGI: 5.0\nVit Mult: 1.0\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Minor mutation",
+      "title": "Burrowing Claws",
+      "text": "Prefix: Mire\nTrait: May move through loose earth or rubble at half movement and ignores Rocky Terrain 2 or lower.\nRider: On a full melee hit, may move the target 2 yards.\nCounterplay: Hard stone and open elevated terrain deny burrowing routes.\nSalvage: excavation claws\nSTR: 5.0\nRES: 0.0\nCHA: 0.0\nDEX: 0.0\nAGI: -5.0\nVit Mult: 1.0\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Blunt"
+    },
+    {
+      "category": "Minor mutation",
+      "title": "Elastic Tendons",
+      "text": "Prefix: Razorstep\nTrait: Once per 10 IC after moving at least 4 yards, gains +2 Dodge until its next action.\nRider: Move attacks may travel +3 yards.\nCounterplay: Immobilization and cramped rooms deny its acceleration.\nSalvage: spring tendons\nSTR: -5.0\nRES: -5.0\nCHA: 0.0\nDEX: 0.0\nAGI: 10.0\nVit Mult: 0.98\nAcc: 0.0\nDodge: 1.0\nDR: 0.0\nDamage Type: Slashing"
+    },
+    {
+      "category": "Minor mutation",
+      "title": "Many Eyes",
+      "text": "Prefix: Thousand-Eye\nTrait: Cannot be Sneak Attacked from the front or sides while at least half its eye clusters remain functional.\nRider: Ignores 1 point of defensive bonus from concealment.\nCounterplay: Smoke, mud and called shots to the eye clusters shut it down.\nSalvage: optic nodules\nSTR: 0.0\nRES: 0.0\nCHA: 0.0\nDEX: 5.0\nAGI: 0.0\nVit Mult: 1.0\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Genjutsu-like"
+    },
+    {
+      "category": "Minor mutation",
+      "title": "Sensory Antennae",
+      "text": "Prefix: Glasswhisker\nTrait: Gains +3 Awareness and can detect movement through thin cover within 5 yards.\nRider: Hidden targets within 5 yards do not gain the usual surprise benefit.\nCounterplay: Strong vibration, thunder and sensory overload interfere with the antennae.\nSalvage: sensory antennae\nSTR: 0.0\nRES: 0.0\nCHA: 5.0\nDEX: 0.0\nAGI: 0.0\nVit Mult: 1.0\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Minor mutation",
+      "title": "Blood Scent",
+      "text": "Prefix: Red-Maw\nTrait: Against a target suffering Bleed or a Major+ Wound, gains +1 Accuracy.\nRider: On a damaging hit against a Bleeding target, heal 20 Vitality per Tier Step + 20.\nCounterplay: Stop bleeding and break line of scent with water, smoke or chemicals.\nSalvage: scent glands\nSTR: 5.0\nRES: 0.0\nCHA: 0.0\nDEX: 0.0\nAGI: 0.0\nVit Mult: 1.0\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Piercing"
+    },
+    {
+      "category": "Minor mutation",
+      "title": "Pack Pheromones",
+      "text": "Prefix: Nest\nTrait: Allied beasts within 10 yards gain +1 Accuracy while this creature is active.\nRider: May designate one ally it can see to move 2 yards after this attack.\nCounterplay: Isolation and destroying pheromone glands removes the coordination.\nSalvage: pheromone glands\nSTR: 0.0\nRES: 0.0\nCHA: 5.0\nDEX: 0.0\nAGI: 0.0\nVit Mult: 1.0\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Poison"
+    },
+    {
+      "category": "Minor mutation",
+      "title": "Amphibious Lungs",
+      "text": "Prefix: River\nTrait: Full movement above or below water and no ordinary underwater penalties.\nRider: If used in water, gains +1 Accuracy.\nCounterplay: Dry heat and forcing it away from water removes its terrain edge.\nSalvage: water-storing lungs\nSTR: 0.0\nRES: 5.0\nCHA: 0.0\nDEX: 0.0\nAGI: 0.0\nVit Mult: 1.02\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Blunt"
+    },
+    {
+      "category": "Minor mutation",
+      "title": "Static Fur",
+      "text": "Prefix: Storm\nTrait: The first melee attacker to hit it each 10 IC takes 25 Energy damage and resists Paralysis 1.\nRider: On a full hit, inflict Paralysis {S} reduced by 2, minimum 1.\nCounterplay: Mud, grounding rods and earth barriers bleed away its charge.\nSalvage: capacitor fur\nSTR: 0.0\nRES: 0.0\nCHA: 5.0\nDEX: 0.0\nAGI: 0.0\nVit Mult: 1.0\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Minor mutation",
+      "title": "Glass Chitin",
+      "text": "Prefix: Glass\nTrait: Physical attacks from beyond 10 yards suffer -1 Accuracy against it.\nRider: Slashing attacks gain +10% Wounding.\nCounterplay: Blunt impacts and broad Area attacks crack the chitin.\nSalvage: glass chitin\nSTR: 0.0\nRES: 5.0\nCHA: 0.0\nDEX: 0.0\nAGI: 0.0\nVit Mult: 1.03\nAcc: 0.0\nDodge: 0.0\nDR: 5.0\nDamage Type: Slashing"
+    },
+    {
+      "category": "Minor mutation",
+      "title": "Hooked Limbs",
+      "text": "Prefix: Hookjaw\nTrait: Gains +2 on rolls to resist forced movement or escape a Grapple.\nRider: On a full melee hit, inflicts Immobilization {S} reduced by 2, minimum 1.\nCounterplay: Cutting or pinning the hooked limbs weakens its control.\nSalvage: hooked limb spurs\nSTR: 5.0\nRES: 0.0\nCHA: 0.0\nDEX: 0.0\nAGI: -5.0\nVit Mult: 1.0\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Piercing"
+    },
+    {
+      "category": "Minor mutation",
+      "title": "Thick Mucus",
+      "text": "Prefix: Pale\nTrait: The first Burn, Bleed or Poison status inflicted on it each 20 IC has its severity reduced by 2.\nRider: Hit terrain becomes slick; targets moving through it suffer Immobilization 1.\nCounterplay: Fire, desiccation and alkaline compounds strip the mucus.\nSalvage: reactive mucus\nSTR: 0.0\nRES: 5.0\nCHA: 5.0\nDEX: 0.0\nAGI: -5.0\nVit Mult: 1.03\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Poison"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Storm Glands",
+      "text": "Prefix: Stormclaw\nTrait: Stores lightning in hollow organs. Immune to ordinary environmental lightning; melee attackers who hit it take 25 Energy backlash.\nRider: On hit, status resistance or suffer Paralysis {S}.\nCounterplay: Grounding rods, mud and Doton barriers discharge the glands.\nSalvage: lightning glands\nSTR: -5.0\nRES: 0.0\nCHA: 15.0\nDEX: 5.0\nAGI: 5.0\nVit Mult: 1.0\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Furnace Heart",
+      "text": "Prefix: Furnace\nTrait: Immune to Burn and Ignite. Cold or water damage suppresses this trait's offensive rider for 10 IC.\nRider: On hit, inflict Burn {S}.\nCounterplay: Sustained Suiton, deep water and cold attacks vent its heat.\nSalvage: furnace core\nSTR: 5.0\nRES: 5.0\nCHA: 15.0\nDEX: -5.0\nAGI: -5.0\nVit Mult: 1.05\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Mineral Plating",
+      "text": "Prefix: Ironhide\nTrait: Gains DR {DR} against physical damage. Called Shots to joints or the abdomen ignore this DR.\nRider: This attack ignores 10 DR and gains +10% Wounding.\nCounterplay: Called shots to exposed joints bypass the plates.\nSalvage: mineral plates\nSTR: 5.0\nRES: 15.0\nCHA: -5.0\nDEX: -5.0\nAGI: -10.0\nVit Mult: 1.1\nAcc: -1.0\nDodge: -1.0\nDR: 20.0\nDamage Type: Blunt"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Venom Sacs",
+      "text": "Prefix: Mirevenom\nTrait: Venom reservoirs make it immune to mundane poison and resistant to its own toxins.\nRider: On hit, status resistance or suffer Poison {S} for 10 IC.\nCounterplay: Antitoxin, draining the sacs and high Resistance blunt its attrition.\nSalvage: venom sacs\nSTR: 0.0\nRES: 0.0\nCHA: 10.0\nDEX: 5.0\nAGI: 0.0\nVit Mult: 1.0\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Poison"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Chameleonic Hide",
+      "text": "Prefix: Nightglass\nTrait: In fog, darkness or natural concealment it treats itself as one Stealth level higher for its Stealth TN bonus.\nRider: If attacking from Stealth, gains +2 Accuracy.\nCounterplay: Bright light, fire and broad sensory coverage expose the hide.\nSalvage: light-reactive hide\nSTR: -5.0\nRES: -5.0\nCHA: 5.0\nDEX: 10.0\nAGI: 10.0\nVit Mult: 0.95\nAcc: 1.0\nDodge: 1.0\nDR: 0.0\nDamage Type: Slashing"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Pressure Bladder",
+      "text": "Prefix: River-Tyrant\nTrait: Stores compressed fluid or air. Once per 20 IC it may ignore up to 6 yards of Knockback.\nRider: Full hits inflict Knockback {S}×2 yards.\nCounterplay: Puncture the bladder or deny access to water/air pressure.\nSalvage: pressure bladder\nSTR: 5.0\nRES: 10.0\nCHA: 10.0\nDEX: 0.0\nAGI: -5.0\nVit Mult: 1.05\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Blunt"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Bone Arsenal",
+      "text": "Prefix: Gravebone\nTrait: Grows replaceable bone blades and plates. The first Minor Wound each 20 IC has no mechanical effect.\nRider: On hit, inflict Bleed {S} and gain +10% Wounding.\nCounterplay: Blunt trauma and repeated hits to the same limb exhaust regrowth.\nSalvage: composite bone\nSTR: 10.0\nRES: 10.0\nCHA: -5.0\nDEX: 0.0\nAGI: -5.0\nVit Mult: 1.05\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Slashing"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Split Nervous System",
+      "text": "Prefix: Twin-Nerve\nTrait: Paralysis and Stun severities affecting it are reduced by 2, minimum 0.\nRider: Once per 20 IC after a failed defense, move 2 yards.\nCounterplay: Head or spine called shots overwhelm the redundant nerves.\nSalvage: redundant nerve tissue\nSTR: 0.0\nRES: 10.0\nCHA: 5.0\nDEX: 5.0\nAGI: 5.0\nVit Mult: 1.03\nAcc: 0.0\nDodge: 1.0\nDR: 0.0\nDamage Type: Blunt"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Blood-Fed Regeneration",
+      "text": "Prefix: Bloodroot\nTrait: Once per 20 IC after dealing HP damage or increasing Bleed, recover Vitality equal to 4% of maximum Vitality.\nRider: Against a Bleeding target, damage +10%.\nCounterplay: Deny bleeding targets, cauterize wounds and burst it between healing triggers.\nSalvage: regenerative glands\nSTR: 5.0\nRES: 10.0\nCHA: 5.0\nDEX: 0.0\nAGI: -5.0\nVit Mult: 1.08\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Piercing"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Spore Cloud",
+      "text": "Prefix: Rotspore\nTrait: A 3-yard cloud clings around it; enemies inside suffer Visibility 2.\nRider: On full hit, the target carries Visibility 2 for 10 IC.\nCounterplay: Strong wind, fire and sealed breathing gear clear the spores.\nSalvage: spore sacs\nSTR: -5.0\nRES: 0.0\nCHA: 15.0\nDEX: 0.0\nAGI: -5.0\nVit Mult: 1.0\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Poison"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Magnetic Quills",
+      "text": "Prefix: Ironstorm\nTrait: Metal projectiles and unattended metal objects within 5 yards can be tugged or deflected.\nRider: Weapon or armour users struck suffer -1 Dodge until their next action.\nCounterplay: Wood, bone, ceramic weapons and magnetic disruption bypass the trick.\nSalvage: magnetic quills\nSTR: 0.0\nRES: 5.0\nCHA: 15.0\nDEX: 5.0\nAGI: 0.0\nVit Mult: 1.0\nAcc: 1.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Parasite Brood",
+      "text": "Prefix: Brood\nTrait: At IC 20 and every 40 IC after, spawn one nuisance minion unless the brood organ has been disabled.\nRider: On hit, inflict Bleed {S} reduced by 1, minimum 1.\nCounterplay: Destroy the brood organ or use Area attacks to clear minions quickly.\nSalvage: brood sacs\nSTR: -5.0\nRES: 5.0\nCHA: 10.0\nDEX: 0.0\nAGI: -5.0\nVit Mult: 1.08\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Piercing"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Resonant Crown",
+      "text": "Prefix: Crown\nTrait: Once per 20 IC, when a Chakra technique is used within 8 yards, gain 5 AP.\nRider: On hit, status resistance or suffer Stun {S}.\nCounterplay: Called shots to the crown stop its resonance until repaired.\nSalvage: resonance chitin\nSTR: 0.0\nRES: 0.0\nCHA: 15.0\nDEX: 10.0\nAGI: -5.0\nVit Mult: 1.0\nAcc: 1.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Caustic Blood",
+      "text": "Prefix: Blackrain\nTrait: Melee attackers that inflict HP damage take 20 Energy damage; armour contacting the blood loses durability.\nRider: On hit, inflict Burn {S} reduced by 1 and armour loses 10 durability.\nCounterplay: Ranged pressure and neutralizing compounds avoid the splashback.\nSalvage: caustic blood\nSTR: -5.0\nRES: 5.0\nCHA: 15.0\nDEX: 0.0\nAGI: -5.0\nVit Mult: 1.02\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Swarm Colony",
+      "text": "Prefix: Many-Mouth\nTrait: Minor wound effects do not reduce its Accuracy and it is immune to Needling.\nRider: Area or Arc attacks may affect one additional adjacent target.\nCounterplay: Area attacks deal 20% more final damage to the colony.\nSalvage: colony core\nSTR: -10.0\nRES: 5.0\nCHA: 5.0\nDEX: 10.0\nAGI: 5.0\nVit Mult: 1.12\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Slashing"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Chakra Leech",
+      "text": "Prefix: Hollow\nTrait: The first time each 20 IC a nearby enemy gains a Chakra Exhaustion penalty, this creature gains 5 AP.\nRider: On hit, target's next Chakra Exhaustion roll suffers -2.\nCounterplay: Low-chakra tactics and physical pressure starve the leech organ.\nSalvage: chakra siphon gland\nSTR: -5.0\nRES: 5.0\nCHA: 15.0\nDEX: 5.0\nAGI: -5.0\nVit Mult: 1.0\nAcc: 0.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Null-Chakra Husk",
+      "text": "Prefix: Nullhide\nTrait: Ninjutsu damage against it is reduced by 15% before DR, but physical damage against it is increased by 10%.\nRider: On hit, one Upkeep on the target counts as +2 higher until its next action.\nCounterplay: Taijutsu, weapons and direct physical trauma exploit the brittle husk.\nSalvage: null-chakra shell\nSTR: 0.0\nRES: 5.0\nCHA: 10.0\nDEX: -5.0\nAGI: -5.0\nVit Mult: 1.05\nAcc: 0.0\nDodge: -1.0\nDR: 0.0\nDamage Type: Blunt"
+    },
+    {
+      "category": "Major mutation",
+      "title": "Wing Membranes",
+      "text": "Prefix: Skyrend\nTrait: Can fly at normal movement. Ground-only Immobilization does not affect it unless the effect reaches into the air.\nRider: May move 5 yards before resolving this attack.\nCounterplay: Enclosed terrain, torn wings and grounding effects remove its aerial advantage.\nSalvage: wing membrane\nSTR: -5.0\nRES: -5.0\nCHA: 5.0\nDEX: 5.0\nAGI: 15.0\nVit Mult: 0.95\nAcc: 0.0\nDodge: 2.0\nDR: 0.0\nDamage Type: Slashing"
+    },
+    {
+      "category": "Apex mutation",
+      "title": "Regenerative Core",
+      "text": "Prefix: Deathless\nTrait: At the end of every 20 IC, recover 6% maximum Vitality unless the core was damaged or it took fire, lightning or sealing damage since the previous tick.\nRider: On a Major+ Wound, immediately recover 2% maximum Vitality once per 20 IC.\nCounterplay: Expose or called-shot the core, then maintain anti-regeneration pressure.\nSalvage: regenerative core\nSTR: 10.0\nRES: 20.0\nCHA: 20.0\nDEX: -10.0\nAGI: -10.0\nVit Mult: 1.18\nAcc: 0.0\nDodge: -1.0\nDR: 0.0\nDamage Type: Blunt"
+    },
+    {
+      "category": "Apex mutation",
+      "title": "Phase Skin",
+      "text": "Prefix: Ghost\nTrait: Once per 20 IC after being targeted, gain +4 Dodge against that one attack; if it misses, move 3 yards.\nRider: This attack ignores Cover and 10 DR.\nCounterplay: Area attacks, seals and attacks from multiple angles exhaust its phase timing.\nSalvage: phase membrane\nSTR: -10.0\nRES: -5.0\nCHA: 20.0\nDEX: 15.0\nAGI: 15.0\nVit Mult: 0.95\nAcc: 1.0\nDodge: 2.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Apex mutation",
+      "title": "Living Weather Organ",
+      "text": "Prefix: Monsoon\nTrait: While active, the battlefield gains a mild weather effect chosen by the GM that the creature ignores.\nRider: On full hit, create a 4-yard hazardous zone matching the weather until its next action.\nCounterplay: Destroy the exposed weather organ or fight under hard shelter.\nSalvage: weather bladder\nSTR: 0.0\nRES: 10.0\nCHA: 25.0\nDEX: 0.0\nAGI: -5.0\nVit Mult: 1.1\nAcc: 1.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Apex mutation",
+      "title": "Multiplying Heads",
+      "text": "Prefix: Hydra\nTrait: Begins with three active heads. Once per 20 IC it may make one basic head attack as Speed 0; called shots can disable heads temporarily.\nRider: May choose a second target within 4 yards for 50% damage.\nCounterplay: Called shots and focused damage disable heads and cut its extra tempo.\nSalvage: head stem\nSTR: 15.0\nRES: 15.0\nCHA: 10.0\nDEX: 0.0\nAGI: -5.0\nVit Mult: 1.15\nAcc: 1.0\nDodge: -1.0\nDR: 0.0\nDamage Type: Piercing"
+    },
+    {
+      "category": "Apex mutation",
+      "title": "Terrain Heart",
+      "text": "Prefix: Worldroot\nTrait: Every 20 IC choose a 5-yard zone within 20 yards; it becomes Rocky Terrain {S} reduced by 1 until IC+20.\nRider: On hit, the target's space becomes Rocky Terrain {S}.\nCounterplay: Relocate constantly and strike the terrain-heart during exposed pulses.\nSalvage: terrain heart\nSTR: 15.0\nRES: 20.0\nCHA: 20.0\nDEX: -10.0\nAGI: -15.0\nVit Mult: 1.18\nAcc: 0.0\nDodge: -1.0\nDR: 20.0\nDamage Type: Blunt"
+    },
+    {
+      "category": "Apex mutation",
+      "title": "Seal-Eater Organ",
+      "text": "Prefix: Sealmaw\nTrait: The first sealing or barrier effect applied to it each 20 IC has its effective severity/integrity reduced by 25%.\nRider: On hit, one barrier or Upkeep on the target loses 20 durability/integrity.\nCounterplay: Layer multiple weaker seals or destroy the organ before committing a major seal.\nSalvage: seal-eater organ\nSTR: 5.0\nRES: 10.0\nCHA: 25.0\nDEX: 5.0\nAGI: -10.0\nVit Mult: 1.08\nAcc: 1.0\nDodge: 0.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Apex mutation",
+      "title": "Catastrophic Resonator",
+      "text": "Prefix: Cathedral\nTrait: Once per scene, at 50% Vitality, immediately gain 20 AP and unlock its third action at +2 status severity for 20 IC.\nRider: On hit, status resistance or suffer Stun {S} and Visibility 2.\nCounterplay: Destroy the resonator before the midpoint or disengage during the surge.\nSalvage: cathedral resonator\nSTR: 10.0\nRES: 10.0\nCHA: 25.0\nDEX: 5.0\nAGI: -10.0\nVit Mult: 1.1\nAcc: 1.0\nDodge: -1.0\nDR: 0.0\nDamage Type: Energy"
+    },
+    {
+      "category": "Apex mutation",
+      "title": "Buried Engine",
+      "text": "Prefix: Drill\nTrait: May move underground at full movement through earth and rubble. While Buried 6+ it cannot be directly targeted except by ground-penetrating effects.\nRider: May begin this attack while Buried and inflicts Buried {S} reduced by 1 on a failed status resistance.\nCounterplay: Hard bedrock, ground-penetrating attacks and prepared collapse zones expose it.\nSalvage: tunnelling engine\nSTR: 20.0\nRES: 15.0\nCHA: 10.0\nDEX: -10.0\nAGI: -5.0\nVit Mult: 1.15\nAcc: 0.0\nDodge: -1.0\nDR: 25.0\nDamage Type: Piercing"
+    },
+    {
+      "category": "Original role action",
+      "title": "Bruiser|1|1",
+      "text": "Role: Bruiser\nSlot: 1.0\nVariant: 1.0\nName: Rending Maul\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Slashing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: On a full hit, inflict Bleed {S}."
+    },
+    {
+      "category": "Original role action",
+      "title": "Bruiser|1|2",
+      "text": "Role: Bruiser\nSlot: 1.0\nVariant: 2.0\nName: Hammering Bite\nSpeed: 9.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Blunt\nGeometry: Melee\nScale: PDB\nDice Mod: 0.0\nEffect: On a full hit, inflict Stun {S} reduced by 1."
+    },
+    {
+      "category": "Original role action",
+      "title": "Bruiser|1|3",
+      "text": "Role: Bruiser\nSlot: 1.0\nVariant: 3.0\nName: Bonebreaker\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Melee\nScale: PDB\nDice Mod: 0.0\nEffect: Gain +15% Wounding against a target that Blocked."
+    },
+    {
+      "category": "Original role action",
+      "title": "Bruiser|2|1",
+      "text": "Role: Bruiser\nSlot: 2.0\nVariant: 1.0\nName: Devastating Charge\nSpeed: 13.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Line 10\nScale: PDB\nDice Mod: 1.0\nEffect: Move along the line before resolving; full hits suffer Knockback {S}×2 yards."
+    },
+    {
+      "category": "Original role action",
+      "title": "Bruiser|2|2",
+      "text": "Role: Bruiser\nSlot: 2.0\nVariant: 2.0\nName: Ravaging Sweep\nSpeed: 12.0\nCost Type: Stamina\nCost Offset: 1.0\nDefault Type: Slashing\nGeometry: Arc 5\nScale: PDB\nDice Mod: 1.0\nEffect: All hit targets are moved 2 yards to the edge of the arc."
+    },
+    {
+      "category": "Original role action",
+      "title": "Bruiser|2|3",
+      "text": "Role: Bruiser\nSlot: 2.0\nVariant: 3.0\nName: Quake Slam\nSpeed: 14.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Area 4\nScale: PDB\nDice Mod: 1.0\nEffect: Creates Rocky Terrain {S} reduced by 1 for 20 IC."
+    },
+    {
+      "category": "Original role action",
+      "title": "Bruiser|3|1",
+      "text": "Role: Bruiser\nSlot: 3.0\nVariant: 1.0\nName: Relentless Advance\nSpeed: 7.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Move up to normal movement; until its next action, forced movement against it is halved."
+    },
+    {
+      "category": "Original role action",
+      "title": "Bruiser|3|2",
+      "text": "Role: Bruiser\nSlot: 3.0\nVariant: 2.0\nName: Threatening Roar\nSpeed: 11.0\nCost Type: Chakra\nCost Offset: 0.0\nDefault Type: Energy\nGeometry: Area 6\nScale: NDB\nDice Mod: -1.0\nEffect: Status resistance or suffer -2 Accuracy until the target's next action."
+    },
+    {
+      "category": "Original role action",
+      "title": "Bruiser|3|3",
+      "text": "Role: Bruiser\nSlot: 3.0\nVariant: 3.0\nName: Crushing Follow-Through\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Melee\nScale: PDB\nDice Mod: 0.0\nEffect: Against a Prone or Immobilized target, damage +15%."
+    },
+    {
+      "category": "Original role action",
+      "title": "Skirmisher|1|1",
+      "text": "Role: Skirmisher\nSlot: 1.0\nVariant: 1.0\nName: Quick Rake\nSpeed: 7.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Slashing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: After resolving, move 2 yards."
+    },
+    {
+      "category": "Original role action",
+      "title": "Skirmisher|1|2",
+      "text": "Role: Skirmisher\nSlot: 1.0\nVariant: 2.0\nName: Needle Bite\nSpeed: 6.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Piercing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: On a full hit, inflict Bleed {S} reduced by 2, minimum 1."
+    },
+    {
+      "category": "Original role action",
+      "title": "Skirmisher|1|3",
+      "text": "Role: Skirmisher\nSlot: 1.0\nVariant: 3.0\nName: Scything Pass\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Slashing\nGeometry: Line 6\nScale: PDB\nDice Mod: -1.0\nEffect: May pass through occupied spaces and end on either side of the line."
+    },
+    {
+      "category": "Original role action",
+      "title": "Skirmisher|2|1",
+      "text": "Role: Skirmisher\nSlot: 2.0\nVariant: 1.0\nName: Pouncing Cut\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 1.0\nDefault Type: Slashing\nGeometry: Move 8 / Melee\nScale: PDB\nDice Mod: 1.0\nEffect: Move up to 8 yards before attacking; full hit inflicts Knockback {S} yards."
+    },
+    {
+      "category": "Original role action",
+      "title": "Skirmisher|2|2",
+      "text": "Role: Skirmisher\nSlot: 2.0\nVariant: 2.0\nName: Forked Rush\nSpeed: 11.0\nCost Type: Chakra\nCost Offset: 1.0\nDefault Type: Energy\nGeometry: Chain 2\nScale: NDB\nDice Mod: 0.0\nEffect: On hit, attack a second target within 5 yards at -2 Accuracy for 70% damage."
+    },
+    {
+      "category": "Original role action",
+      "title": "Skirmisher|2|3",
+      "text": "Role: Skirmisher\nSlot: 2.0\nVariant: 3.0\nName: Flashstep Claw\nSpeed: 9.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Slashing\nGeometry: Move 6 / Melee\nScale: PDB\nDice Mod: 0.0\nEffect: If it moved at least 5 yards first, gain +2 Accuracy."
+    },
+    {
+      "category": "Original role action",
+      "title": "Skirmisher|3|1",
+      "text": "Role: Skirmisher\nSlot: 3.0\nVariant: 1.0\nName: Feinting Circle\nSpeed: 6.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Move normal movement; until its next attack gain +2 Dodge and +1 Accuracy."
+    },
+    {
+      "category": "Original role action",
+      "title": "Skirmisher|3|2",
+      "text": "Role: Skirmisher\nSlot: 3.0\nVariant: 2.0\nName: Break Away\nSpeed: 5.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Move 6 yards without triggering ordinary melee retaliation."
+    },
+    {
+      "category": "Original role action",
+      "title": "Skirmisher|3|3",
+      "text": "Role: Skirmisher\nSlot: 3.0\nVariant: 3.0\nName: Slipstream\nSpeed: 7.0\nCost Type: Chakra\nCost Offset: -2.0\nDefault Type: Energy\nGeometry: Self / Utility\nScale: NDB\nDice Mod: -2.0\nEffect: Until its next action ranged attacks against it suffer -2 Accuracy."
+    },
+    {
+      "category": "Original role action",
+      "title": "Controller|1|1",
+      "text": "Role: Controller\nSlot: 1.0\nVariant: 1.0\nName: Grasping Bite\nSpeed: 9.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Piercing\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: -1.0\nEffect: On hit, status resistance or suffer Immobilization {S}."
+    },
+    {
+      "category": "Original role action",
+      "title": "Controller|1|2",
+      "text": "Role: Controller\nSlot: 1.0\nVariant: 2.0\nName: Binding Lash\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Blunt\nGeometry: Melee 4\nScale: PDB\nDice Mod: -1.0\nEffect: On a full hit, pull the target {S} yards."
+    },
+    {
+      "category": "Original role action",
+      "title": "Controller|1|3",
+      "text": "Role: Controller\nSlot: 1.0\nVariant: 3.0\nName: Numbing Spit\nSpeed: 8.0\nCost Type: Chakra\nCost Offset: -1.0\nDefault Type: Poison\nGeometry: Projectile 10\nScale: NDB\nDice Mod: -1.0\nEffect: Status resistance or suffer Paralysis {S} reduced by 1."
+    },
+    {
+      "category": "Original role action",
+      "title": "Controller|2|1",
+      "text": "Role: Controller\nSlot: 2.0\nVariant: 1.0\nName: Mire Surge\nSpeed: 12.0\nCost Type: Chakra\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Area 6\nScale: NDB\nDice Mod: 0.0\nEffect: Creates Rocky Terrain {S}; failed status resistance also inflicts Immobilization {S}."
+    },
+    {
+      "category": "Original role action",
+      "title": "Controller|2|2",
+      "text": "Role: Controller\nSlot: 2.0\nVariant: 2.0\nName: Snaring Field\nSpeed: 13.0\nCost Type: Chakra\nCost Offset: 2.0\nDefault Type: Energy\nGeometry: Area 7\nScale: NDB\nDice Mod: 0.0\nEffect: Area persists for 15 IC; entering it inflicts Immobilization {S} reduced by 1."
+    },
+    {
+      "category": "Original role action",
+      "title": "Controller|2|3",
+      "text": "Role: Controller\nSlot: 2.0\nVariant: 3.0\nName: Disorienting Wave\nSpeed: 11.0\nCost Type: Chakra\nCost Offset: 1.0\nDefault Type: Energy\nGeometry: Cone 8\nScale: NDB\nDice Mod: 0.0\nEffect: Status resistance or suffer Visibility {S} and -1 Accuracy for 10 IC."
+    },
+    {
+      "category": "Original role action",
+      "title": "Controller|3|1",
+      "text": "Role: Controller\nSlot: 3.0\nVariant: 1.0\nName: Herd the Prey\nSpeed: 9.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Blunt\nGeometry: Arc 5\nScale: PDB\nDice Mod: -1.0\nEffect: Full-hit targets are moved up to 4 yards in a direction chosen by the creature."
+    },
+    {
+      "category": "Original role action",
+      "title": "Controller|3|2",
+      "text": "Role: Controller\nSlot: 3.0\nVariant: 2.0\nName: Binding Howl\nSpeed: 12.0\nCost Type: Chakra\nCost Offset: 1.0\nDefault Type: Genjutsu-like\nGeometry: Area 8\nScale: NDB\nDice Mod: -1.0\nEffect: Status resistance or suffer Stun {S} and cannot willingly move closer for 10 IC."
+    },
+    {
+      "category": "Original role action",
+      "title": "Controller|3|3",
+      "text": "Role: Controller\nSlot: 3.0\nVariant: 3.0\nName: Collapse Route\nSpeed: 10.0\nCost Type: Chakra\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Line 10 / Utility\nScale: NDB\nDice Mod: -1.0\nEffect: Creates a line of Rocky Terrain {S} reduced by 1 for 20 IC."
+    },
+    {
+      "category": "Original role action",
+      "title": "Artillery|1|1",
+      "text": "Role: Artillery\nSlot: 1.0\nVariant: 1.0\nName: Chakra Lance\nSpeed: 9.0\nCost Type: Chakra\nCost Offset: -1.0\nDefault Type: Energy\nGeometry: Projectile 18\nScale: NDB\nDice Mod: -1.0\nEffect: Ignores 5 DR and gains +1 Accuracy beyond 10 yards."
+    },
+    {
+      "category": "Original role action",
+      "title": "Artillery|1|2",
+      "text": "Role: Artillery\nSlot: 1.0\nVariant: 2.0\nName: Spine Volley\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Piercing\nGeometry: Projectile 16\nScale: PDB\nDice Mod: -1.0\nEffect: On a full hit, inflict Bleed {S} reduced by 1."
+    },
+    {
+      "category": "Original role action",
+      "title": "Artillery|1|3",
+      "text": "Role: Artillery\nSlot: 1.0\nVariant: 3.0\nName: Pressure Shot\nSpeed: 8.0\nCost Type: Chakra\nCost Offset: -1.0\nDefault Type: Blunt\nGeometry: Projectile 15\nScale: NDB\nDice Mod: -1.0\nEffect: Full hit inflicts Knockback {S}×2 yards."
+    },
+    {
+      "category": "Original role action",
+      "title": "Artillery|2|1",
+      "text": "Role: Artillery\nSlot: 2.0\nVariant: 1.0\nName: Burst Volley\nSpeed: 13.0\nCost Type: Chakra\nCost Offset: 2.0\nDefault Type: Energy\nGeometry: Area 5 at 18\nScale: NDB\nDice Mod: 1.0\nEffect: Targets using Cover gain +2 to their defense, but cover takes full damage."
+    },
+    {
+      "category": "Original role action",
+      "title": "Artillery|2|2",
+      "text": "Role: Artillery\nSlot: 2.0\nVariant: 2.0\nName: Siege Breath\nSpeed: 15.0\nCost Type: Chakra\nCost Offset: 3.0\nDefault Type: Energy\nGeometry: Cone 12\nScale: NDB\nDice Mod: 1.0\nEffect: Structures take double damage; full hit inflicts Burn {S}."
+    },
+    {
+      "category": "Original role action",
+      "title": "Artillery|2|3",
+      "text": "Role: Artillery\nSlot: 2.0\nVariant: 3.0\nName: Longline Rupture\nSpeed: 14.0\nCost Type: Chakra\nCost Offset: 2.0\nDefault Type: Piercing\nGeometry: Line 20\nScale: NDB\nDice Mod: 1.0\nEffect: Ignores 10 DR and creates Rocky Terrain 2 along the line."
+    },
+    {
+      "category": "Original role action",
+      "title": "Artillery|3|1",
+      "text": "Role: Artillery\nSlot: 3.0\nVariant: 1.0\nName: Repositioning Burst\nSpeed: 6.0\nCost Type: Chakra\nCost Offset: -2.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: NDB\nDice Mod: -2.0\nEffect: Move 6 yards and gain +2 Dodge against the next ranged attack before its next action."
+    },
+    {
+      "category": "Original role action",
+      "title": "Artillery|3|2",
+      "text": "Role: Artillery\nSlot: 3.0\nVariant: 2.0\nName: Rangefinder Cry\nSpeed: 8.0\nCost Type: Chakra\nCost Offset: -2.0\nDefault Type: Energy\nGeometry: Self / Utility\nScale: NDB\nDice Mod: -2.0\nEffect: Its next projectile attack gains +2 Accuracy and ignores 2 Visibility."
+    },
+    {
+      "category": "Original role action",
+      "title": "Artillery|3|3",
+      "text": "Role: Artillery\nSlot: 3.0\nVariant: 3.0\nName: Suppressive Spray\nSpeed: 10.0\nCost Type: Chakra\nCost Offset: 0.0\nDefault Type: Energy\nGeometry: Area 6 at 15\nScale: NDB\nDice Mod: -1.0\nEffect: Targets inside suffer -1 Accuracy until they leave the area."
+    },
+    {
+      "category": "Original role action",
+      "title": "Ambusher|1|1",
+      "text": "Role: Ambusher\nSlot: 1.0\nVariant: 1.0\nName: Veil Strike\nSpeed: 7.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Slashing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: From Stealth, gain +2 Accuracy and +10% Wounding."
+    },
+    {
+      "category": "Original role action",
+      "title": "Ambusher|1|2",
+      "text": "Role: Ambusher\nSlot: 1.0\nVariant: 2.0\nName: Silent Bite\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Piercing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: From Stealth, inflict Bleed {S}."
+    },
+    {
+      "category": "Original role action",
+      "title": "Ambusher|1|3",
+      "text": "Role: Ambusher\nSlot: 1.0\nVariant: 3.0\nName: Blindside Rake\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Slashing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: If an ally is within 5 yards of the target, gain +1 Accuracy."
+    },
+    {
+      "category": "Original role action",
+      "title": "Ambusher|2|1",
+      "text": "Role: Ambusher\nSlot: 2.0\nVariant: 1.0\nName: Shadow Pounce\nSpeed: 11.0\nCost Type: Stamina\nCost Offset: 1.0\nDefault Type: Blunt\nGeometry: Move 10 / Melee\nScale: PDB\nDice Mod: 1.0\nEffect: May move 10 yards before the attack; from Stealth, full hit inflicts Stun {S}."
+    },
+    {
+      "category": "Original role action",
+      "title": "Ambusher|2|2",
+      "text": "Role: Ambusher\nSlot: 2.0\nVariant: 2.0\nName: Blackout Rush\nSpeed: 12.0\nCost Type: Chakra\nCost Offset: 2.0\nDefault Type: Energy\nGeometry: Line 10\nScale: NDB\nDice Mod: 0.0\nEffect: Creates Visibility {S} reduced by 1 along the line for 15 IC."
+    },
+    {
+      "category": "Original role action",
+      "title": "Ambusher|2|3",
+      "text": "Role: Ambusher\nSlot: 2.0\nVariant: 3.0\nName: Execution Leap\nSpeed: 13.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Piercing\nGeometry: Move 8 / Melee\nScale: PDB\nDice Mod: 1.0\nEffect: Called Shot penalties are reduced by 2 for this attack."
+    },
+    {
+      "category": "Original role action",
+      "title": "Ambusher|3|1",
+      "text": "Role: Ambusher\nSlot: 3.0\nVariant: 1.0\nName: Vanish\nSpeed: 7.0\nCost Type: Chakra\nCost Offset: -2.0\nDefault Type: Energy\nGeometry: Self / Stealth\nScale: NDB\nDice Mod: -2.0\nEffect: If Visibility is 4+ or it has hard cover, immediately attempt Hide as Speed 0."
+    },
+    {
+      "category": "Original role action",
+      "title": "Ambusher|3|2",
+      "text": "Role: Ambusher\nSlot: 3.0\nVariant: 2.0\nName: Shadow Crossing\nSpeed: 5.0\nCost Type: Chakra\nCost Offset: -3.0\nDefault Type: Energy\nGeometry: Move / Stealth\nScale: NDB\nDice Mod: -2.0\nEffect: Move 8 yards between two areas of cover or shadow without breaking current Stealth."
+    },
+    {
+      "category": "Original role action",
+      "title": "Ambusher|3|3",
+      "text": "Role: Ambusher\nSlot: 3.0\nVariant: 3.0\nName: False Trail\nSpeed: 8.0\nCost Type: Chakra\nCost Offset: -2.0\nDefault Type: Genjutsu-like\nGeometry: Area 5 / Utility\nScale: NDB\nDice Mod: -2.0\nEffect: Until its next action, Awareness checks to locate it suffer -3."
+    },
+    {
+      "category": "Original role action",
+      "title": "Grappler|1|1",
+      "text": "Role: Grappler\nSlot: 1.0\nVariant: 1.0\nName: Locking Clamp\nSpeed: 9.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Blunt\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: -1.0\nEffect: On hit, Athletics versus Resistance; failure inflicts Immobilization {S}."
+    },
+    {
+      "category": "Original role action",
+      "title": "Grappler|1|2",
+      "text": "Role: Grappler\nSlot: 1.0\nVariant: 2.0\nName: Hook and Drag\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Piercing\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: -1.0\nEffect: On full hit, pull the target up to {S} yards and make them Prone."
+    },
+    {
+      "category": "Original role action",
+      "title": "Grappler|1|3",
+      "text": "Role: Grappler\nSlot: 1.0\nVariant: 3.0\nName: Coiling Crush\nSpeed: 11.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: 0.0\nEffect: Against a Grappled target, damage +15%."
+    },
+    {
+      "category": "Original role action",
+      "title": "Grappler|2|1",
+      "text": "Role: Grappler\nSlot: 2.0\nVariant: 1.0\nName: Death Roll\nSpeed: 13.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: 1.0\nEffect: Requires a Grappled or Immobilized target; inflicts Stun {S} and Knockback {S} yards."
+    },
+    {
+      "category": "Original role action",
+      "title": "Grappler|2|2",
+      "text": "Role: Grappler\nSlot: 2.0\nVariant: 2.0\nName: Drag Under\nSpeed: 12.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Move / Grapple\nScale: PDB\nDice Mod: 0.0\nEffect: Move up to 6 yards while carrying one Grappled target; target suffers Immobilization {S}."
+    },
+    {
+      "category": "Original role action",
+      "title": "Grappler|2|3",
+      "text": "Role: Grappler\nSlot: 2.0\nVariant: 3.0\nName: Crushing Coil\nSpeed: 14.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: 1.0\nEffect: Status resistance or suffer Suffocation {S} reduced by 2 while Grappled."
+    },
+    {
+      "category": "Original role action",
+      "title": "Grappler|3|1",
+      "text": "Role: Grappler\nSlot: 3.0\nVariant: 1.0\nName: Battering Throw\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Melee / Throw\nScale: PDB\nDice Mod: 0.0\nEffect: Requires a Grappled target; throw them {S}×2 yards and make them Prone."
+    },
+    {
+      "category": "Original role action",
+      "title": "Grappler|3|2",
+      "text": "Role: Grappler\nSlot: 3.0\nVariant: 2.0\nName: Pin the Weak\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Blunt\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: -1.0\nEffect: Against a target with lower STR, gains +2 on the Grapple roll."
+    },
+    {
+      "category": "Original role action",
+      "title": "Grappler|3|3",
+      "text": "Role: Grappler\nSlot: 3.0\nVariant: 3.0\nName: Anchor\nSpeed: 6.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Self / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Until its next action, cannot be forcibly moved unless the effect exceeds its RES/10."
+    },
+    {
+      "category": "Original role action",
+      "title": "Tank|1|1",
+      "text": "Role: Tank\nSlot: 1.0\nVariant: 1.0\nName: Bastion Ram\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Melee\nScale: PDB\nDice Mod: 0.0\nEffect: On full hit, Knockback {S} yards."
+    },
+    {
+      "category": "Original role action",
+      "title": "Tank|1|2",
+      "text": "Role: Tank\nSlot: 1.0\nVariant: 2.0\nName: Armoured Bite\nSpeed: 9.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Piercing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: Until its next action after hitting, gain 5 DR."
+    },
+    {
+      "category": "Original role action",
+      "title": "Tank|1|3",
+      "text": "Role: Tank\nSlot: 1.0\nVariant: 3.0\nName: Shielding Sweep\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Arc 4\nScale: PDB\nDice Mod: -1.0\nEffect: Allies immediately behind it count as having Cover against one incoming attack."
+    },
+    {
+      "category": "Original role action",
+      "title": "Tank|2|1",
+      "text": "Role: Tank\nSlot: 2.0\nVariant: 1.0\nName: Retaliatory Spikes\nSpeed: 12.0\nCost Type: Stamina\nCost Offset: 1.0\nDefault Type: Piercing\nGeometry: Area 3\nScale: PDB\nDice Mod: 0.0\nEffect: Targets that damaged it in melee since its last action are attacked at +1 Accuracy."
+    },
+    {
+      "category": "Original role action",
+      "title": "Tank|2|2",
+      "text": "Role: Tank\nSlot: 2.0\nVariant: 2.0\nName: Bulwark Charge\nSpeed: 14.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Line 8\nScale: PDB\nDice Mod: 1.0\nEffect: Move along the line; until its next action gain DR {S}×3."
+    },
+    {
+      "category": "Original role action",
+      "title": "Tank|2|3",
+      "text": "Role: Tank\nSlot: 2.0\nVariant: 3.0\nName: Fortress Quake\nSpeed: 13.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Area 5\nScale: PDB\nDice Mod: 1.0\nEffect: Creates Rocky Terrain {S} reduced by 1 and makes full-hit targets Prone."
+    },
+    {
+      "category": "Original role action",
+      "title": "Tank|3|1",
+      "text": "Role: Tank\nSlot: 3.0\nVariant: 1.0\nName: Brace\nSpeed: 7.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Self / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Until its next action, gain 15 DR but movement is halved."
+    },
+    {
+      "category": "Original role action",
+      "title": "Tank|3|2",
+      "text": "Role: Tank\nSlot: 3.0\nVariant: 2.0\nName: Interpose\nSpeed: 6.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Move 4 yards toward an ally; until its next action may Take The Hit for that ally at +2."
+    },
+    {
+      "category": "Original role action",
+      "title": "Tank|3|3",
+      "text": "Role: Tank\nSlot: 3.0\nVariant: 3.0\nName: Stonewall Roar\nSpeed: 11.0\nCost Type: Chakra\nCost Offset: 0.0\nDefault Type: Energy\nGeometry: Area 6\nScale: NDB\nDice Mod: -1.0\nEffect: Status resistance or targets suffer -2 Accuracy against creatures other than this one for 10 IC."
+    },
+    {
+      "category": "Original role action",
+      "title": "Swarm|1|1",
+      "text": "Role: Swarm\nSlot: 1.0\nVariant: 1.0\nName: Scouring Cloud\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Slashing\nGeometry: Area 3\nScale: PDB\nDice Mod: -1.0\nEffect: On any damaging hit, inflict Bleed {S} reduced by 1."
+    },
+    {
+      "category": "Original role action",
+      "title": "Swarm|1|2",
+      "text": "Role: Swarm\nSlot: 1.0\nVariant: 2.0\nName: Gnawing Wave\nSpeed: 7.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Piercing\nGeometry: Area 3\nScale: PDB\nDice Mod: -1.0\nEffect: Targets that spent Chakra since their last action are attacked at +1 Accuracy."
+    },
+    {
+      "category": "Original role action",
+      "title": "Swarm|1|3",
+      "text": "Role: Swarm\nSlot: 1.0\nVariant: 3.0\nName: Needle Brood\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Piercing\nGeometry: Cone 4\nScale: PDB\nDice Mod: -1.0\nEffect: Blocking reduces only 35% of this attack instead of 50% where applicable."
+    },
+    {
+      "category": "Original role action",
+      "title": "Swarm|2|1",
+      "text": "Role: Swarm\nSlot: 2.0\nVariant: 1.0\nName: Mandible Storm\nSpeed: 11.0\nCost Type: Stamina\nCost Offset: 1.0\nDefault Type: Slashing\nGeometry: Area 5\nScale: PDB\nDice Mod: 1.0\nEffect: Full-hit targets suffer Bleed {S}."
+    },
+    {
+      "category": "Original role action",
+      "title": "Swarm|2|2",
+      "text": "Role: Swarm\nSlot: 2.0\nVariant: 2.0\nName: Wing-Shear Pass\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 1.0\nDefault Type: Slashing\nGeometry: Line 8\nScale: PDB\nDice Mod: 0.0\nEffect: May pass through occupied spaces; each creature in the line defends separately."
+    },
+    {
+      "category": "Original role action",
+      "title": "Swarm|2|3",
+      "text": "Role: Swarm\nSlot: 2.0\nVariant: 3.0\nName: Brood Collapse\nSpeed: 12.0\nCost Type: Chakra\nCost Offset: 2.0\nDefault Type: Poison\nGeometry: Area 5\nScale: NDB\nDice Mod: 0.0\nEffect: Status resistance or suffer Poison {S} for 10 IC."
+    },
+    {
+      "category": "Original role action",
+      "title": "Swarm|3|1",
+      "text": "Role: Swarm\nSlot: 3.0\nVariant: 1.0\nName: Cinder Scatter\nSpeed: 5.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Move normal movement and create a 3-yard Visibility 2 cloud until its next action."
+    },
+    {
+      "category": "Original role action",
+      "title": "Swarm|3|2",
+      "text": "Role: Swarm\nSlot: 3.0\nVariant: 2.0\nName: Lift on the Wind\nSpeed: 5.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Move up to 2× normal movement; ranged attacks against it suffer -2 Accuracy until its next action."
+    },
+    {
+      "category": "Original role action",
+      "title": "Swarm|3|3",
+      "text": "Role: Swarm\nSlot: 3.0\nVariant: 3.0\nName: Reform the Mass\nSpeed: 9.0\nCost Type: Chakra\nCost Offset: -1.0\nDefault Type: Energy\nGeometry: Self / Utility\nScale: NDB\nDice Mod: -2.0\nEffect: Recover 3% maximum Vitality; usable once per 20 IC."
+    },
+    {
+      "category": "Hunt DM",
+      "title": "EMBER CORPS — HUNT DM READOUT",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "GM-only Hunt dossier. Track Intel and Preparation here; the target, checks, clues and encounter advantages update automatically with the Forge. Use Hunt Post first for the zero-Intel player announcement.",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "HUNT TRACKER",
+      "text": "TARGET SNAPSHOT"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Team Size",
+      "text": "Target"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Tracks Intel",
+      "text": "0.0\nThreat\nRole"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Nature Intel",
+      "text": "0.0\nBody\nTerrain"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Weakness Intel",
+      "text": "0.0\nDamage\nBalance"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Preparation",
+      "text": "0.0\nStart Cost"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Hunt Status",
+      "text": "Investigation\nRule\nUp to 4 Hunters. A player may only be part of one active Hunt at a time."
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Reset the tracker when you generate a new Hunt target. Intel is shared across the whole Hunting Team; Preparation is shared and caps at 3.",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "HUNT ACTIONS",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Action",
+      "text": "Unique Hunt Skill\nPlayer Roll\nTN\nSuccess\nRequirement\nFailure Cue\nCost"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Track",
+      "text": "+1 Tracks Intel (max 3)\n—\n1 DT Slot"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Research",
+      "text": "+1 Nature Intel (max 3)\n—\nRecords are wrong, remains are contaminated, or another predator is drawn in.\n1 DT Slot"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Study Weakness",
+      "text": "+1 Weakness Intel (max 3)\nEvidence is damaged, the beast adapts, or surveillance gives the hunters away.\n1 DT Slot"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Prepare",
+      "text": "+1 Preparation (max 3)\nPreparation below 3\n1 DT Slot"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Every Hunt Action costs 1 Downtime Slot. Successful Track, Research and Study Weakness actions advance their shared Intel category by 1; Prepare grants 1 shared Preparation, max 3.",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "TRACKS INTEL",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "1 — Rumors",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "2 — Reliable",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "3 — Hunter's Insight",
+      "text": "The Team may avoid an ambush or choose its starting position when the encounter begins."
+    },
+    {
+      "category": "Hunt DM",
+      "title": "NATURE INTEL",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "1 — Rumors",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "2 — Reliable",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "3 — Hunter's Insight",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "WEAKNESS INTEL",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "1 — Rumors",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "2 — Reliable",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "3 — Hunter's Insight",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "PREPARATION",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Prep 1 — Countermeasure",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Prep 2 — Protection",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Prep 3 — Battlefield",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Spend",
+      "text": "Each successful Prepare grants 1 Preparation (max 3). Spend it during the Hunt for an appropriate advantage created by what was actually prepared."
+    },
+    {
+      "category": "Hunt DM",
+      "title": "COMPLICATIONS — 1D6 OR PICK",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Roll",
+      "text": "Complication\nSuggested consequence"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "1.0",
+      "text": "Quarry Relocates"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "2.0",
+      "text": "The Beast Gets Wise"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "3.0",
+      "text": "Rival Predator"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "4.0",
+      "text": "Supplies Lost\nBait, seals, ammunition or specialist gear are ruined. If the Team has Preparation, losing 1 is an appropriate consequence."
+    },
+    {
+      "category": "Hunt DM",
+      "title": "5.0",
+      "text": "Terrain Worsens"
+    },
+    {
+      "category": "Hunt DM",
+      "title": "6.0",
+      "text": "Bad Intel\nA witness, carcass or chakra trace was misleading. The next Hunt Action should use a different source or approach before repeating the same method."
+    },
+    {
+      "category": "Hunt DM",
+      "title": "START THE HUNT",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Downtime Cost",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Tracks 3",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Nature 3",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Weakness 3",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Preparation",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Status",
+      "text": ""
+    },
+    {
+      "category": "Hunt DM",
+      "title": "Complete Hunt",
+      "text": "The Hunt is completed when the target is killed, captured, driven away, or otherwise neutralised. Everyone in the final encounter counts as having Completed a Hunt for weekly Downtime rewards."
+    },
+    {
+      "category": "Hunt DM",
+      "title": "GM NOTE",
+      "text": ""
+    },
+    {
+      "category": "Hunt Post",
+      "title": "EMBER CORPS — HUNT ANNOUNCEMENT",
+      "text": ""
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Generate a zero-Intel Hunt bulletin for players, plus the private GM context behind it. Change Announcement Reroll to vary the post without changing the monster.",
+      "text": ""
+    },
+    {
+      "category": "Hunt Post",
+      "title": "GM ANNOUNCEMENT ROLLS",
+      "text": "PUBLIC SNAPSHOT"
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Announcement Reroll",
+      "text": "0.0\nEffective Seed"
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Environment",
+      "text": "Threat"
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Last Seen",
+      "text": "Public Creature"
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Reported Problem",
+      "text": "Public Codename"
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Witness Source",
+      "text": "Timing"
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Timing",
+      "text": "Hunt Status\nOPEN — Up to 4 Hunters"
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Public Codename",
+      "text": "Intel at Post\n0 Tracks • 0 Nature • 0 Weakness"
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Observed Sign",
+      "text": "Rule\nZero-Intel only: do not reveal role, mutations, signature actions, exact damage type, stats, counterplay or salvage specifics."
+    },
+    {
+      "category": "Hunt Post",
+      "title": "PLAYER HUNT BOARD POST",
+      "text": ""
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Change Announcement Reroll to generate a different location, incident, source, timing and codename while keeping the same monster.",
+      "text": ""
+    },
+    {
+      "category": "Hunt Post",
+      "title": "GM READOUT — DO NOT POST",
+      "text": ""
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Actual Target",
+      "text": ""
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Location Truth",
+      "text": ""
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Incident Truth",
+      "text": ""
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Escalation if Ignored",
+      "text": ""
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Opening Scene",
+      "text": ""
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Safe to Reveal",
+      "text": "Threat class, rough creature type, broad last-seen location, reported incident, witness source and obvious physical sign."
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Keep Hidden",
+      "text": "Actual generated name if it hints at a mutation, combat role, mutation names/traits, signature actions, exact damage type, stats, counterplay, weaknesses and valuable salvage details."
+    },
+    {
+      "category": "Hunt Post",
+      "title": "Next Step",
+      "text": "Post the player bulletin, let up to 4 players form the Hunting Team, then use Hunt DM to resolve Track, Research, Study Weakness and Prepare actions."
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Adversary Forge — Balance Guide",
+      "text": ""
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Core rule: party XP establishes a per-character numeric baseline; party size scales durability and a limited amount of tempo, not raw per-hit damage. Threat Class changes encounter purpose and wound/action-economy rules. Mutation slots use a point budget so stronger traits displace other traits instead of stacking for free.",
+      "text": ""
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Threat Class",
+      "text": "Intent\nAP / 20 IC\nMutation Budget\nFrame\nTested XP Band\nGM Rule"
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Vermin",
+      "text": "Routine infestation / attrition\n5.0\n2.0\nSwarm / vermin frame: built for routine infestation, attrition, or nuisance pressure.\n1,000–2,500 XP\nRoutine pressure; safe to use in multiples."
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Predator",
+      "text": "Hard hunt / dangerous local predator\n8.0\n3.0\nPredator frame: a hard hunting target with enough tempo to pressure a small squad.\n1,000–2,500 XP\nHard fight; use terrain and mobility."
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Great Beast",
+      "text": "Prepared hunt / serious crew target\n10.0\n4.0\nGreat Beast Frame — Minor Wounds are tracked but have no mechanical effect.\n1,000–2,500 XP\nPrepared hunt; telegraph weaknesses."
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Dread Beast",
+      "text": "Deadly set-piece / regional apex\n13.0\n5.0\nDread Frame — Minor Wounds have no mechanical effect; the first Major Wound each 20 IC is mechanically reduced to Minor.\n1,000–2,500 XP\nDeadly named apex; counterplay should matter."
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Titan",
+      "text": "Raid objective / Haven-scale threat\n17.0\n6.0\nTitan Frame — Ignore mechanical effects of Minor and Major Wounds. Each 25% Vitality lost exposes a temporary breach or objective.\n1,000–2,500 XP\nObjective/raid encounter; direct kill is not Plan A."
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Calamity",
+      "text": "Disaster encounter / survival and redirection\n20.0\n7.0\nCalamity Frame — Standard Wound tables do not apply. At 75/50/25% Vitality trigger a Disruption and expose an objective.\n1,000–2,500 XP\nDisaster encounter; survival/redirection is a valid win."
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Mutation Tier",
+      "text": "Cost\nWhat it can do\nDesign guardrail"
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Minor",
+      "text": "1.0\nSmall sensory, mobility, resistance or rider benefit.\nShould not decide the encounter by itself."
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Major",
+      "text": "2.0\nDefining offensive/defensive mutation or strong battlefield tool.\nMust include visible counterplay or a real tradeoff."
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Apex",
+      "text": "3.0\nBoss-shaping tempo, regeneration, terrain or phase mechanic.\nReserved for Calamity-class default generation; always expose an objective/weak point."
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Multiple-enemy rule: per-creature durability is divided by enemy count, base damage dice are divided by √enemy count, status severity steps down as count rises, and AP gain is throttled. This is a Forge balancing rule added on top of the source monster tables, not an existing published Ember Corps rule.",
+      "text": ""
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Fair-fight checks: (1) do not increase damage simply because the party has more players; (2) control riders are part of the power budget; (3) Titans and Calamities need mission objectives, breakpoints, or weak points; (4) High Intensity is deliberately above the baseline; (5) above 2,500 average XP the current normal-monster tables are extrapolated, so use the warning and sanity-check the result.",
+      "text": ""
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Project source",
+      "text": "URL"
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Basic Monster Sheets",
+      "text": "https://docs.google.com/document/d/1Fwum42_OYCjy-PSFPrhkN_7stHJxx2GALj8NJKIzLzc"
+    },
+    {
+      "category": "Balance Guide",
+      "title": "Combat rules",
+      "text": "https://docs.google.com/document/d/1HjUuwpszEH8dRVQj5LFZffKdkBPDULiqmVETef1HbBc"
+    }
+  ]
+}
