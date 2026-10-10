@@ -10,21 +10,12 @@
 @media(forced-colors:active){.segments .filled{background:Highlight}.bar span{background:Highlight}:focus-visible{outline:3px solid Highlight}}
 @media print{body{background:white;color:black;font-size:11pt}.sidebar,.topbar,footer,.no-print,.buttons,button,.skip,#toast{display:none!important}.shell{margin:0}main{max-width:none;padding:0}.panel{box-shadow:none;border:1px solid #aaa;background:white;break-inside:avoid}.profilehead,.stat,.trait,.roll,th{background:white!important;color:black!important}.muted,small,label,.badge,.eyebrow,dt,.quick{color:#333!important}.intro{margin:0 0 10px;padding:0}.intro h1{font-size:35pt}.intro .monster-art{display:none}.split{display:block}.cards,.stategrid,.rulelist{grid-template-columns:1fr 1fr}.sectiongap{margin-top:12px}.action{padding:15px}.formgrid{display:none}.roll{border-color:#aaa!important}details{display:block}details>summary{display:none}details>*{display:block!important}h2{font-size:23pt}.segments .filled{background:#444!important;print-color-adjust:exact}.tablewrap{overflow:visible}}
 
-/* Field insignia and keyboard-accessible tribe selection. */
+/* Field insignia. */
 .emblem{display:inline-block;width:48px;height:48px;flex:none;vertical-align:middle;border-radius:12px}
 .profile-emblem{float:right;width:76px;height:76px;margin:0 0 12px 16px}
 .class-emblem{width:28px;height:28px;border-radius:7px;margin-right:4px}
-.tribe-picker{border:0;padding:0;margin:0;min-width:0}
-.tribe-picker legend{font-size:1.3rem;font-weight:700;margin-bottom:8px}
-.tribe-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
-.tribe-choice{position:relative;display:flex;align-items:center;gap:10px;padding:12px;border:1px solid var(--line);border-radius:12px;cursor:pointer;min-width:0;background:var(--bg)}
-.tribe-choice input{width:18px;height:18px;flex:none;accent-color:var(--accent);margin:0}
-.tribe-choice strong{display:block;font-size:1.08rem}.tribe-choice small{display:block;color:var(--muted);font-size:.82rem;line-height:1.45;margin-top:4px}
-.tribe-choice:has(input:checked){border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
-.tribe-choice:has(input:focus-visible){outline:3px solid var(--gold);outline-offset:3px}
-.tribe-choice .emblem{width:40px;height:40px}
 .emblem-title{display:flex;align-items:center;gap:12px}
 .class-gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.class-card{padding:20px}.class-card h3{margin:12px 0 8px}.class-card p{margin:0;color:var(--muted)}
 .rulecard p{line-height:1.75;overflow-wrap:anywhere}.rulecard h3{margin-bottom:12px}
-@media(max-width:700px){.tribe-grid{grid-template-columns:1fr}.class-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.profile-emblem{width:60px;height:60px}}
+@media(max-width:700px){.class-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.profile-emblem{width:60px;height:60px}}
 @media print{.emblem{print-color-adjust:exact}.class-gallery{grid-template-columns:repeat(4,1fr)}}

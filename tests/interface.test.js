@@ -30,13 +30,13 @@ test('share link round-trip preserves Unicode and encounter state',async()=>{
  await click({do:'share'});assert.ok(copied.startsWith('https://example.org/MonsterForge/#import='));location.hash=copied.slice(copied.indexOf('#'));for(const fn of windowListeners.hashchange)await fn();assert.equal(location.hash,'#combat');assert.match(nodes.get('#view').innerHTML,/Bloodied/);
 });
 
-test('illustrated tribe selection submits each tribe through the Forge',async()=>{
+test('tribe dropdown submits each tribe through the Forge',async()=>{
  const NativeFormData=globalThis.FormData;
  try{
   await goto('forge');
   const html=nodes.get('#view').innerHTML;
-  assert.match(html,/<fieldset class="tribe-picker">/);
-  assert.equal((html.match(/type="radio" name="tribe"/g)||[]).length,7);
+  assert.match(html,/<label for="tribe">Monster tribe<\/label><select id="tribe" name="tribe" required>/);
+  assert.doesNotMatch(html,/tribe-grid|type="radio" name="tribe"/);
   assert.match(html,/classes\/[a-z]+\.svg/);
   document.querySelector('#forge-form').reportValidity=()=>true;
   for(const tribe of ['Fang','Colossus','Chitin','Sky','Coil','Mire','Colony']){
@@ -44,7 +44,7 @@ test('illustrated tribe selection submits each tribe through the Forge',async()=
    globalThis.FormData=class{constructor(){return new Map(Object.entries(config));}};
    await dispatch('submit',{target:{id:'forge-form',matches:()=>true},preventDefault(){}});
    assert.equal(JSON.parse(storage.get('ember-monsterforge-v1')).config.tribe,tribe);
-   assert.ok(nodes.get('#view').innerHTML.includes(`value="${tribe}" checked`));
+   assert.ok(nodes.get('#view').innerHTML.includes(`<option selected>${tribe}</option>`));
   }
  }finally{globalThis.FormData=NativeFormData;}
 });
