@@ -1,6 +1,7 @@
 import {DATA} from './data.js';
 import {defaults,generate,blankBattle,replay,availability,damageExpression,declaration,addEvent,validateImport,baseEffort,multithrow} from './engine.js';
 const $=s=>document.querySelector(s);
+const assetBase=new URL('./assets/',import.meta.url).href;
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const n=v=>Number(v)||0;
 const signed=v=>v>=0?'+'+v:String(v);
@@ -13,7 +14,7 @@ function save(){try{localStorage.setItem(KEY,JSON.stringify(state));localStorage
 function refresh(){profile=generate(state.config);live=replay(profile,state.battle);}
 function field(id,label,value,type='text',extra=''){return `<div class="field"><label for="${id}">${label}</label><input id="${id}" name="${id}" type="${type}" value="${esc(value)}" ${extra}></div>`;}
 function select(id,label,value,values,extra=''){return `<div class="field"><label for="${id}">${label}</label><select id="${id}" name="${id}" ${extra}>${values.map(v=>`<option ${v===value?'selected':''}>${esc(v)}</option>`).join('')}</select></div>`;}
-function intro(kicker,title,text){return `<section class="intro"><img class="monster-art" src="assets/monster.svg" alt=""><div class="eyebrow">${kicker}</div><h1>${title}</h1><p>${text}</p></section>`;}
+function intro(kicker,title,text){return `<section class="intro"><img class="monster-art" src="${assetBase}monster.svg" alt=""><div class="eyebrow">${kicker}</div><h1>${title}</h1><p>${text}</p></section>`;}
 function panel(title,body,extra=''){return `<section class="panel ${extra}"><div class="panelhead"><h2>${title}</h2></div><div class="panelbody">${body}</div></section>`;}
 function metrics(o){return `<dl class="metrics">${Object.entries(o).map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>`;}
 function tools(){return `<div class="buttons no-print"><button data-do="save-monster">Save to bestiary</button><button data-do="export">Export JSON</button><button data-do="share">Copy share link</button><button data-do="print">Print sheet</button></div>`;}
@@ -113,7 +114,7 @@ document.addEventListener('change',async e=>{const el=e.target,b=state.battle;tr
  if(el.id==='target')decl.target=el.value;if(el.id==='decl-format')decl.format=el.value;if(el.id==='no-earth'){decl.noEarth=el.checked;render();}
  if(el.id==='restraint'||el.id==='gear')event({type:el.id==='restraint'?'Restraint':'Gear',value:el.checked});
  if(el.id==='gm-notes'){state.notes=el.value;save();}
- if(el.id==='rule-category'){if(el.value==='legacy'&&!legacy){const res=await fetch('legacy.json');if(!res.ok)throw Error('Original reference catalog could not load.');legacy=await res.json();}$('#rule-results').innerHTML=ruleResults(el.value,$('#rule-search').value);}
+ if(el.id==='rule-category'){if(el.value==='legacy'&&!legacy){const res=await fetch(new URL('./legacy.json',import.meta.url));if(!res.ok)throw Error('Original reference catalog could not load.');legacy=await res.json();}$('#rule-results').innerHTML=ruleResults(el.value,$('#rule-search').value);}
  if(el.id==='import-file'){const file=el.files[0];if(!file)return;if(file.size>5*1024*1024)throw Error('Import is limited to 5 MB.');const o=JSON.parse(await file.text());if(o.type==='monsterforge-bestiary'){if(o.version!==1||!Array.isArray(o.sheets)||o.sheets.length>500)throw Error('Invalid bestiary.');const sheets=o.sheets.map(validateImport);library.unshift(...sheets);save();render();toast('Bestiary imported.');}else{validateImport(o);if(b.events.length)archive();state=o;state.hunt={...{location:'',incident:'',objective:'Capture',tracks:0,nature:0,weakness:0,preparations:''},...o.hunt};save();location.hash='#combat';render();toast('Monster sheet imported.');}}
  }catch(err){toast(err.message);}});
 document.addEventListener('input',e=>{if(e.target.id==='rule-search')$('#rule-results').innerHTML=ruleResults($('#rule-category').value,e.target.value);if(e.target.id==='gm-notes'){state.notes=e.target.value;save();}});
