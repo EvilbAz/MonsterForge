@@ -32,42 +32,42 @@
       "text": "Code: 6.0\nSTR1000: 135.0\nRES1000: 140.0\nCHA1000: 130.0\nDEX1000: 70.0\nAGI1000: 65.0\nVit1000: 7470.0\nVit/Step: 810.0\nHP1000: 2050.0\nHP/Step: 225.0\nAcc1000: 24.0\nDodge1000: 9.0\nAP Base: 20.0\nMutation Budget: 7.0\nAwareness: 18.0\nResistance: 24.0\nSurvival: 20.0\nAthletics: 20.0\nChakra Control: 22.0\nBase Dice: 14.0\nDie Size: 12.0\nStatus Base: 6.0\nCost Base: 22.0\nFrame Trait: Calamity Frame — Standard Wound tables do not apply. At 75/50/25% Vitality trigger a Disruption and expose an objective.\nEncounter Intent: Disaster encounter / survival and redirection\nMinor Slot: 0.0\nMajor 1: 1.0\nMajor 2: 1.0\nMajor 3: 0.0\nApex Slot: 1.0"
     },
     {
-      "category": "Role",
+      "category": "Combat class",
       "title": "Bruiser",
       "text": "Code: 1.0\nSTR Mod: 15.0\nRES Mod: 5.0\nCHA Mod: -10.0\nDEX Mod: -5.0\nAGI Mod: -5.0\nVitality Mult: 1.05\nAcc Mod: 0.0\nDodge Mod: -1.0\nRole Trait: Bruiser Instinct — Gains +15% damage against a target it has already damaged since its last action."
     },
     {
-      "category": "Role",
+      "category": "Combat class",
       "title": "Skirmisher",
       "text": "Code: 2.0\nSTR Mod: -5.0\nRES Mod: -10.0\nCHA Mod: -5.0\nDEX Mod: 5.0\nAGI Mod: 15.0\nVitality Mult: 0.9\nAcc Mod: 1.0\nDodge Mod: 2.0\nRole Trait: Skirmisher Instinct — Once per 10 IC after a successful Dodge, move 3 yards without shifting initiative."
     },
     {
-      "category": "Role",
+      "category": "Combat class",
       "title": "Controller",
       "text": "Code: 3.0\nSTR Mod: -10.0\nRES Mod: 0.0\nCHA Mod: 15.0\nDEX Mod: 5.0\nAGI Mod: -10.0\nVitality Mult: 0.95\nAcc Mod: 1.0\nDodge Mod: 0.0\nRole Trait: Controller Instinct — The first status effect it inflicts each 20 IC gains +1 severity."
     },
     {
-      "category": "Role",
+      "category": "Combat class",
       "title": "Artillery",
       "text": "Code: 4.0\nSTR Mod: -10.0\nRES Mod: -10.0\nCHA Mod: 15.0\nDEX Mod: 10.0\nAGI Mod: -5.0\nVitality Mult: 0.9\nAcc Mod: 1.0\nDodge Mod: 0.0\nRole Trait: Artillery Instinct — Attacks made from 12+ yards away gain +1 Accuracy."
     },
     {
-      "category": "Role",
+      "category": "Combat class",
       "title": "Ambusher",
       "text": "Code: 5.0\nSTR Mod: 0.0\nRES Mod: -10.0\nCHA Mod: 0.0\nDEX Mod: 10.0\nAGI Mod: 10.0\nVitality Mult: 0.9\nAcc Mod: 1.0\nDodge Mod: 1.0\nRole Trait: Ambusher Instinct — Its first damaging attack from Stealth treats 5 IC of preparation as sufficient for a Sneak Attack."
     },
     {
-      "category": "Role",
+      "category": "Combat class",
       "title": "Grappler",
       "text": "Code: 6.0\nSTR Mod: 15.0\nRES Mod: 10.0\nCHA Mod: -10.0\nDEX Mod: -5.0\nAGI Mod: -10.0\nVitality Mult: 1.05\nAcc Mod: 0.0\nDodge Mod: -1.0\nRole Trait: Grappler Instinct — Gains +3 on Athletics rolls to establish or maintain Grapples."
     },
     {
-      "category": "Role",
+      "category": "Combat class",
       "title": "Tank",
       "text": "Code: 7.0\nSTR Mod: 5.0\nRES Mod: 20.0\nCHA Mod: -5.0\nDEX Mod: -10.0\nAGI Mod: -10.0\nVitality Mult: 1.15\nAcc Mod: -1.0\nDodge Mod: -1.0\nRole Trait: Tank Instinct — The first attack it Blocks each 20 IC reduces an additional 10% final damage."
     },
     {
-      "category": "Role",
+      "category": "Combat class",
       "title": "Swarm",
       "text": "Code: 8.0\nSTR Mod: -10.0\nRES Mod: -5.0\nCHA Mod: 0.0\nDEX Mod: 10.0\nAGI Mod: 5.0\nVitality Mult: 0.85\nAcc Mod: 1.0\nDodge Mod: 1.0\nRole Trait: Swarm Body — Non-Area melee attacks deal 25% less final damage; Area attacks deal 20% more final damage."
     },
@@ -382,374 +382,364 @@
       "text": "Prefix: Drill\nTrait: May move underground at full movement through earth and rubble. While Buried 6+ it cannot be directly targeted except by ground-penetrating effects.\nRider: May begin this attack while Buried and inflicts Buried {S} reduced by 1 on a failed status resistance.\nCounterplay: Hard bedrock, ground-penetrating attacks and prepared collapse zones expose it.\nSalvage: tunnelling engine\nSTR: 20.0\nRES: 15.0\nCHA: 10.0\nDEX: -10.0\nAGI: -5.0\nVit Mult: 1.15\nAcc: 0.0\nDodge: -1.0\nDR: 25.0\nDamage Type: Piercing"
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Bruiser|1|1",
       "text": "Role: Bruiser\nSlot: 1.0\nVariant: 1.0\nName: Rending Maul\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Slashing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: On a full hit, inflict Bleed {S}."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Bruiser|1|2",
       "text": "Role: Bruiser\nSlot: 1.0\nVariant: 2.0\nName: Hammering Bite\nSpeed: 9.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Blunt\nGeometry: Melee\nScale: PDB\nDice Mod: 0.0\nEffect: On a full hit, inflict Stun {S} reduced by 1."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Bruiser|1|3",
       "text": "Role: Bruiser\nSlot: 1.0\nVariant: 3.0\nName: Bonebreaker\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Melee\nScale: PDB\nDice Mod: 0.0\nEffect: Gain +15% Wounding against a target that Blocked."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Bruiser|2|1",
       "text": "Role: Bruiser\nSlot: 2.0\nVariant: 1.0\nName: Devastating Charge\nSpeed: 13.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Line 10\nScale: PDB\nDice Mod: 1.0\nEffect: Move along the line before resolving; full hits suffer Knockback {S}×2 yards."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Bruiser|2|2",
       "text": "Role: Bruiser\nSlot: 2.0\nVariant: 2.0\nName: Ravaging Sweep\nSpeed: 12.0\nCost Type: Stamina\nCost Offset: 1.0\nDefault Type: Slashing\nGeometry: Arc 5\nScale: PDB\nDice Mod: 1.0\nEffect: All hit targets are moved 2 yards to the edge of the arc."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Bruiser|2|3",
       "text": "Role: Bruiser\nSlot: 2.0\nVariant: 3.0\nName: Quake Slam\nSpeed: 14.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Area 4\nScale: PDB\nDice Mod: 1.0\nEffect: Creates Rocky Terrain {S} reduced by 1 for 20 IC."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Bruiser|3|1",
       "text": "Role: Bruiser\nSlot: 3.0\nVariant: 1.0\nName: Relentless Advance\nSpeed: 7.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Move up to normal movement; until its next action, forced movement against it is halved."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Bruiser|3|2",
       "text": "Role: Bruiser\nSlot: 3.0\nVariant: 2.0\nName: Threatening Roar\nSpeed: 11.0\nCost Type: Chakra\nCost Offset: 0.0\nDefault Type: Energy\nGeometry: Area 6\nScale: NDB\nDice Mod: -1.0\nEffect: Status resistance or suffer -2 Accuracy until the target's next action."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Bruiser|3|3",
       "text": "Role: Bruiser\nSlot: 3.0\nVariant: 3.0\nName: Crushing Follow-Through\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Melee\nScale: PDB\nDice Mod: 0.0\nEffect: Against a Prone or Immobilized target, damage +15%."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Skirmisher|1|1",
       "text": "Role: Skirmisher\nSlot: 1.0\nVariant: 1.0\nName: Quick Rake\nSpeed: 7.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Slashing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: After resolving, move 2 yards."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Skirmisher|1|2",
       "text": "Role: Skirmisher\nSlot: 1.0\nVariant: 2.0\nName: Needle Bite\nSpeed: 6.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Piercing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: On a full hit, inflict Bleed {S} reduced by 2, minimum 1."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Skirmisher|1|3",
       "text": "Role: Skirmisher\nSlot: 1.0\nVariant: 3.0\nName: Scything Pass\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Slashing\nGeometry: Line 6\nScale: PDB\nDice Mod: -1.0\nEffect: May pass through occupied spaces and end on either side of the line."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Skirmisher|2|1",
       "text": "Role: Skirmisher\nSlot: 2.0\nVariant: 1.0\nName: Pouncing Cut\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 1.0\nDefault Type: Slashing\nGeometry: Move 8 / Melee\nScale: PDB\nDice Mod: 1.0\nEffect: Move up to 8 yards before attacking; full hit inflicts Knockback {S} yards."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Skirmisher|2|2",
       "text": "Role: Skirmisher\nSlot: 2.0\nVariant: 2.0\nName: Forked Rush\nSpeed: 11.0\nCost Type: Chakra\nCost Offset: 1.0\nDefault Type: Energy\nGeometry: Chain 2\nScale: NDB\nDice Mod: 0.0\nEffect: On hit, attack a second target within 5 yards at -2 Accuracy for 70% damage."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Skirmisher|2|3",
       "text": "Role: Skirmisher\nSlot: 2.0\nVariant: 3.0\nName: Flashstep Claw\nSpeed: 9.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Slashing\nGeometry: Move 6 / Melee\nScale: PDB\nDice Mod: 0.0\nEffect: If it moved at least 5 yards first, gain +2 Accuracy."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Skirmisher|3|1",
       "text": "Role: Skirmisher\nSlot: 3.0\nVariant: 1.0\nName: Feinting Circle\nSpeed: 6.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Move normal movement; until its next attack gain +2 Dodge and +1 Accuracy."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Skirmisher|3|2",
       "text": "Role: Skirmisher\nSlot: 3.0\nVariant: 2.0\nName: Break Away\nSpeed: 5.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Move 6 yards without triggering ordinary melee retaliation."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Skirmisher|3|3",
       "text": "Role: Skirmisher\nSlot: 3.0\nVariant: 3.0\nName: Slipstream\nSpeed: 7.0\nCost Type: Chakra\nCost Offset: -2.0\nDefault Type: Energy\nGeometry: Self / Utility\nScale: NDB\nDice Mod: -2.0\nEffect: Until its next action ranged attacks against it suffer -2 Accuracy."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Controller|1|1",
       "text": "Role: Controller\nSlot: 1.0\nVariant: 1.0\nName: Grasping Bite\nSpeed: 9.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Piercing\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: -1.0\nEffect: On hit, status resistance or suffer Immobilization {S}."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Controller|1|2",
       "text": "Role: Controller\nSlot: 1.0\nVariant: 2.0\nName: Binding Lash\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Blunt\nGeometry: Melee 4\nScale: PDB\nDice Mod: -1.0\nEffect: On a full hit, pull the target {S} yards."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Controller|1|3",
       "text": "Role: Controller\nSlot: 1.0\nVariant: 3.0\nName: Numbing Spit\nSpeed: 8.0\nCost Type: Chakra\nCost Offset: -1.0\nDefault Type: Poison\nGeometry: Projectile 10\nScale: NDB\nDice Mod: -1.0\nEffect: Status resistance or suffer Paralysis {S} reduced by 1."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Controller|2|1",
       "text": "Role: Controller\nSlot: 2.0\nVariant: 1.0\nName: Mire Surge\nSpeed: 12.0\nCost Type: Chakra\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Area 6\nScale: NDB\nDice Mod: 0.0\nEffect: Creates Rocky Terrain {S}; failed status resistance also inflicts Immobilization {S}."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Controller|2|2",
       "text": "Role: Controller\nSlot: 2.0\nVariant: 2.0\nName: Snaring Field\nSpeed: 13.0\nCost Type: Chakra\nCost Offset: 2.0\nDefault Type: Energy\nGeometry: Area 7\nScale: NDB\nDice Mod: 0.0\nEffect: Area persists for 15 IC; entering it inflicts Immobilization {S} reduced by 1."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Controller|2|3",
       "text": "Role: Controller\nSlot: 2.0\nVariant: 3.0\nName: Disorienting Wave\nSpeed: 11.0\nCost Type: Chakra\nCost Offset: 1.0\nDefault Type: Energy\nGeometry: Cone 8\nScale: NDB\nDice Mod: 0.0\nEffect: Status resistance or suffer Visibility {S} and -1 Accuracy for 10 IC."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Controller|3|1",
       "text": "Role: Controller\nSlot: 3.0\nVariant: 1.0\nName: Herd the Prey\nSpeed: 9.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Blunt\nGeometry: Arc 5\nScale: PDB\nDice Mod: -1.0\nEffect: Full-hit targets are moved up to 4 yards in a direction chosen by the creature."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Controller|3|2",
       "text": "Role: Controller\nSlot: 3.0\nVariant: 2.0\nName: Binding Howl\nSpeed: 12.0\nCost Type: Chakra\nCost Offset: 1.0\nDefault Type: Genjutsu-like\nGeometry: Area 8\nScale: NDB\nDice Mod: -1.0\nEffect: Status resistance or suffer Stun {S} and cannot willingly move closer for 10 IC."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Controller|3|3",
       "text": "Role: Controller\nSlot: 3.0\nVariant: 3.0\nName: Collapse Route\nSpeed: 10.0\nCost Type: Chakra\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Line 10 / Utility\nScale: NDB\nDice Mod: -1.0\nEffect: Creates a line of Rocky Terrain {S} reduced by 1 for 20 IC."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Artillery|1|1",
       "text": "Role: Artillery\nSlot: 1.0\nVariant: 1.0\nName: Chakra Lance\nSpeed: 9.0\nCost Type: Chakra\nCost Offset: -1.0\nDefault Type: Energy\nGeometry: Projectile 18\nScale: NDB\nDice Mod: -1.0\nEffect: Ignores 5 DR and gains +1 Accuracy beyond 10 yards."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Artillery|1|2",
       "text": "Role: Artillery\nSlot: 1.0\nVariant: 2.0\nName: Spine Volley\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Piercing\nGeometry: Projectile 16\nScale: PDB\nDice Mod: -1.0\nEffect: On a full hit, inflict Bleed {S} reduced by 1."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Artillery|1|3",
       "text": "Role: Artillery\nSlot: 1.0\nVariant: 3.0\nName: Pressure Shot\nSpeed: 8.0\nCost Type: Chakra\nCost Offset: -1.0\nDefault Type: Blunt\nGeometry: Projectile 15\nScale: NDB\nDice Mod: -1.0\nEffect: Full hit inflicts Knockback {S}×2 yards."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Artillery|2|1",
       "text": "Role: Artillery\nSlot: 2.0\nVariant: 1.0\nName: Burst Volley\nSpeed: 13.0\nCost Type: Chakra\nCost Offset: 2.0\nDefault Type: Energy\nGeometry: Area 5 at 18\nScale: NDB\nDice Mod: 1.0\nEffect: Targets using Cover gain +2 to their defense, but cover takes full damage."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Artillery|2|2",
       "text": "Role: Artillery\nSlot: 2.0\nVariant: 2.0\nName: Siege Breath\nSpeed: 15.0\nCost Type: Chakra\nCost Offset: 3.0\nDefault Type: Energy\nGeometry: Cone 12\nScale: NDB\nDice Mod: 1.0\nEffect: Structures take double damage; full hit inflicts Burn {S}."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Artillery|2|3",
       "text": "Role: Artillery\nSlot: 2.0\nVariant: 3.0\nName: Longline Rupture\nSpeed: 14.0\nCost Type: Chakra\nCost Offset: 2.0\nDefault Type: Piercing\nGeometry: Line 20\nScale: NDB\nDice Mod: 1.0\nEffect: Ignores 10 DR and creates Rocky Terrain 2 along the line."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Artillery|3|1",
       "text": "Role: Artillery\nSlot: 3.0\nVariant: 1.0\nName: Repositioning Burst\nSpeed: 6.0\nCost Type: Chakra\nCost Offset: -2.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: NDB\nDice Mod: -2.0\nEffect: Move 6 yards and gain +2 Dodge against the next ranged attack before its next action."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Artillery|3|2",
       "text": "Role: Artillery\nSlot: 3.0\nVariant: 2.0\nName: Rangefinder Cry\nSpeed: 8.0\nCost Type: Chakra\nCost Offset: -2.0\nDefault Type: Energy\nGeometry: Self / Utility\nScale: NDB\nDice Mod: -2.0\nEffect: Its next projectile attack gains +2 Accuracy and ignores 2 Visibility."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Artillery|3|3",
       "text": "Role: Artillery\nSlot: 3.0\nVariant: 3.0\nName: Suppressive Spray\nSpeed: 10.0\nCost Type: Chakra\nCost Offset: 0.0\nDefault Type: Energy\nGeometry: Area 6 at 15\nScale: NDB\nDice Mod: -1.0\nEffect: Targets inside suffer -1 Accuracy until they leave the area."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Ambusher|1|1",
       "text": "Role: Ambusher\nSlot: 1.0\nVariant: 1.0\nName: Veil Strike\nSpeed: 7.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Slashing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: From Stealth, gain +2 Accuracy and +10% Wounding."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Ambusher|1|2",
       "text": "Role: Ambusher\nSlot: 1.0\nVariant: 2.0\nName: Silent Bite\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Piercing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: From Stealth, inflict Bleed {S}."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Ambusher|1|3",
       "text": "Role: Ambusher\nSlot: 1.0\nVariant: 3.0\nName: Blindside Rake\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Slashing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: If an ally is within 5 yards of the target, gain +1 Accuracy."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Ambusher|2|1",
       "text": "Role: Ambusher\nSlot: 2.0\nVariant: 1.0\nName: Shadow Pounce\nSpeed: 11.0\nCost Type: Stamina\nCost Offset: 1.0\nDefault Type: Blunt\nGeometry: Move 10 / Melee\nScale: PDB\nDice Mod: 1.0\nEffect: May move 10 yards before the attack; from Stealth, full hit inflicts Stun {S}."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Ambusher|2|2",
       "text": "Role: Ambusher\nSlot: 2.0\nVariant: 2.0\nName: Blackout Rush\nSpeed: 12.0\nCost Type: Chakra\nCost Offset: 2.0\nDefault Type: Energy\nGeometry: Line 10\nScale: NDB\nDice Mod: 0.0\nEffect: Creates Visibility {S} reduced by 1 along the line for 15 IC."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Ambusher|2|3",
       "text": "Role: Ambusher\nSlot: 2.0\nVariant: 3.0\nName: Execution Leap\nSpeed: 13.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Piercing\nGeometry: Move 8 / Melee\nScale: PDB\nDice Mod: 1.0\nEffect: Called Shot penalties are reduced by 2 for this attack."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Ambusher|3|1",
       "text": "Role: Ambusher\nSlot: 3.0\nVariant: 1.0\nName: Vanish\nSpeed: 7.0\nCost Type: Chakra\nCost Offset: -2.0\nDefault Type: Energy\nGeometry: Self / Stealth\nScale: NDB\nDice Mod: -2.0\nEffect: If Visibility is 4+ or it has hard cover, immediately attempt Hide as Speed 0."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Ambusher|3|2",
       "text": "Role: Ambusher\nSlot: 3.0\nVariant: 2.0\nName: Shadow Crossing\nSpeed: 5.0\nCost Type: Chakra\nCost Offset: -3.0\nDefault Type: Energy\nGeometry: Move / Stealth\nScale: NDB\nDice Mod: -2.0\nEffect: Move 8 yards between two areas of cover or shadow without breaking current Stealth."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Ambusher|3|3",
       "text": "Role: Ambusher\nSlot: 3.0\nVariant: 3.0\nName: False Trail\nSpeed: 8.0\nCost Type: Chakra\nCost Offset: -2.0\nDefault Type: Genjutsu-like\nGeometry: Area 5 / Utility\nScale: NDB\nDice Mod: -2.0\nEffect: Until its next action, Awareness checks to locate it suffer -3."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Grappler|1|1",
       "text": "Role: Grappler\nSlot: 1.0\nVariant: 1.0\nName: Locking Clamp\nSpeed: 9.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Blunt\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: -1.0\nEffect: On hit, Athletics versus Resistance; failure inflicts Immobilization {S}."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Grappler|1|2",
       "text": "Role: Grappler\nSlot: 1.0\nVariant: 2.0\nName: Hook and Drag\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Piercing\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: -1.0\nEffect: On full hit, pull the target up to {S} yards and make them Prone."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Grappler|1|3",
       "text": "Role: Grappler\nSlot: 1.0\nVariant: 3.0\nName: Coiling Crush\nSpeed: 11.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: 0.0\nEffect: Against a Grappled target, damage +15%."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Grappler|2|1",
       "text": "Role: Grappler\nSlot: 2.0\nVariant: 1.0\nName: Death Roll\nSpeed: 13.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: 1.0\nEffect: Requires a Grappled or Immobilized target; inflicts Stun {S} and Knockback {S} yards."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Grappler|2|2",
       "text": "Role: Grappler\nSlot: 2.0\nVariant: 2.0\nName: Drag Under\nSpeed: 12.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Move / Grapple\nScale: PDB\nDice Mod: 0.0\nEffect: Move up to 6 yards while carrying one Grappled target; target suffers Immobilization {S}."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Grappler|2|3",
       "text": "Role: Grappler\nSlot: 2.0\nVariant: 3.0\nName: Crushing Coil\nSpeed: 14.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: 1.0\nEffect: Status resistance or suffer Suffocation {S} reduced by 2 while Grappled."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Grappler|3|1",
       "text": "Role: Grappler\nSlot: 3.0\nVariant: 1.0\nName: Battering Throw\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Melee / Throw\nScale: PDB\nDice Mod: 0.0\nEffect: Requires a Grappled target; throw them {S}×2 yards and make them Prone."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Grappler|3|2",
       "text": "Role: Grappler\nSlot: 3.0\nVariant: 2.0\nName: Pin the Weak\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Blunt\nGeometry: Melee / Grapple\nScale: PDB\nDice Mod: -1.0\nEffect: Against a target with lower STR, gains +2 on the Grapple roll."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Grappler|3|3",
       "text": "Role: Grappler\nSlot: 3.0\nVariant: 3.0\nName: Anchor\nSpeed: 6.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Self / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Until its next action, cannot be forcibly moved unless the effect exceeds its RES/10."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Tank|1|1",
       "text": "Role: Tank\nSlot: 1.0\nVariant: 1.0\nName: Bastion Ram\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Melee\nScale: PDB\nDice Mod: 0.0\nEffect: On full hit, Knockback {S} yards."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Tank|1|2",
       "text": "Role: Tank\nSlot: 1.0\nVariant: 2.0\nName: Armoured Bite\nSpeed: 9.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Piercing\nGeometry: Melee\nScale: PDB\nDice Mod: -1.0\nEffect: Until its next action after hitting, gain 5 DR."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Tank|1|3",
       "text": "Role: Tank\nSlot: 1.0\nVariant: 3.0\nName: Shielding Sweep\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 0.0\nDefault Type: Blunt\nGeometry: Arc 4\nScale: PDB\nDice Mod: -1.0\nEffect: Allies immediately behind it count as having Cover against one incoming attack."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Tank|2|1",
       "text": "Role: Tank\nSlot: 2.0\nVariant: 1.0\nName: Retaliatory Spikes\nSpeed: 12.0\nCost Type: Stamina\nCost Offset: 1.0\nDefault Type: Piercing\nGeometry: Area 3\nScale: PDB\nDice Mod: 0.0\nEffect: Targets that damaged it in melee since its last action are attacked at +1 Accuracy."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Tank|2|2",
       "text": "Role: Tank\nSlot: 2.0\nVariant: 2.0\nName: Bulwark Charge\nSpeed: 14.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Line 8\nScale: PDB\nDice Mod: 1.0\nEffect: Move along the line; until its next action gain DR {S}×3."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Tank|2|3",
       "text": "Role: Tank\nSlot: 2.0\nVariant: 3.0\nName: Fortress Quake\nSpeed: 13.0\nCost Type: Stamina\nCost Offset: 2.0\nDefault Type: Blunt\nGeometry: Area 5\nScale: PDB\nDice Mod: 1.0\nEffect: Creates Rocky Terrain {S} reduced by 1 and makes full-hit targets Prone."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Tank|3|1",
       "text": "Role: Tank\nSlot: 3.0\nVariant: 1.0\nName: Brace\nSpeed: 7.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Self / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Until its next action, gain 15 DR but movement is halved."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Tank|3|2",
       "text": "Role: Tank\nSlot: 3.0\nVariant: 2.0\nName: Interpose\nSpeed: 6.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Move 4 yards toward an ally; until its next action may Take The Hit for that ally at +2."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Tank|3|3",
       "text": "Role: Tank\nSlot: 3.0\nVariant: 3.0\nName: Stonewall Roar\nSpeed: 11.0\nCost Type: Chakra\nCost Offset: 0.0\nDefault Type: Energy\nGeometry: Area 6\nScale: NDB\nDice Mod: -1.0\nEffect: Status resistance or targets suffer -2 Accuracy against creatures other than this one for 10 IC."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Swarm|1|1",
       "text": "Role: Swarm\nSlot: 1.0\nVariant: 1.0\nName: Scouring Cloud\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Slashing\nGeometry: Area 3\nScale: PDB\nDice Mod: -1.0\nEffect: On any damaging hit, inflict Bleed {S} reduced by 1."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Swarm|1|2",
       "text": "Role: Swarm\nSlot: 1.0\nVariant: 2.0\nName: Gnawing Wave\nSpeed: 7.0\nCost Type: Stamina\nCost Offset: -2.0\nDefault Type: Piercing\nGeometry: Area 3\nScale: PDB\nDice Mod: -1.0\nEffect: Targets that spent Chakra since their last action are attacked at +1 Accuracy."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Swarm|1|3",
       "text": "Role: Swarm\nSlot: 1.0\nVariant: 3.0\nName: Needle Brood\nSpeed: 8.0\nCost Type: Stamina\nCost Offset: -1.0\nDefault Type: Piercing\nGeometry: Cone 4\nScale: PDB\nDice Mod: -1.0\nEffect: Blocking reduces only 35% of this attack instead of 50% where applicable."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Swarm|2|1",
       "text": "Role: Swarm\nSlot: 2.0\nVariant: 1.0\nName: Mandible Storm\nSpeed: 11.0\nCost Type: Stamina\nCost Offset: 1.0\nDefault Type: Slashing\nGeometry: Area 5\nScale: PDB\nDice Mod: 1.0\nEffect: Full-hit targets suffer Bleed {S}."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Swarm|2|2",
       "text": "Role: Swarm\nSlot: 2.0\nVariant: 2.0\nName: Wing-Shear Pass\nSpeed: 10.0\nCost Type: Stamina\nCost Offset: 1.0\nDefault Type: Slashing\nGeometry: Line 8\nScale: PDB\nDice Mod: 0.0\nEffect: May pass through occupied spaces; each creature in the line defends separately."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Swarm|2|3",
       "text": "Role: Swarm\nSlot: 2.0\nVariant: 3.0\nName: Brood Collapse\nSpeed: 12.0\nCost Type: Chakra\nCost Offset: 2.0\nDefault Type: Poison\nGeometry: Area 5\nScale: NDB\nDice Mod: 0.0\nEffect: Status resistance or suffer Poison {S} for 10 IC."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Swarm|3|1",
       "text": "Role: Swarm\nSlot: 3.0\nVariant: 1.0\nName: Cinder Scatter\nSpeed: 5.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Move normal movement and create a 3-yard Visibility 2 cloud until its next action."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Swarm|3|2",
       "text": "Role: Swarm\nSlot: 3.0\nVariant: 2.0\nName: Lift on the Wind\nSpeed: 5.0\nCost Type: Stamina\nCost Offset: -3.0\nDefault Type: Blunt\nGeometry: Move / Utility\nScale: PDB\nDice Mod: -2.0\nEffect: Move up to 2× normal movement; ranged attacks against it suffer -2 Accuracy until its next action."
     },
     {
-      "category": "Original role action",
+      "category": "Class action",
       "title": "Swarm|3|3",
       "text": "Role: Swarm\nSlot: 3.0\nVariant: 3.0\nName: Reform the Mass\nSpeed: 9.0\nCost Type: Chakra\nCost Offset: -1.0\nDefault Type: Energy\nGeometry: Self / Utility\nScale: NDB\nDice Mod: -2.0\nEffect: Recover 3% maximum Vitality; usable once per 20 IC."
-    },
-    {
-      "category": "Hunt DM",
-      "title": "EMBER CORPS — HUNT DM READOUT",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "GM-only Hunt dossier. Track Intel and Preparation here; the target, checks, clues and encounter advantages update automatically with the Forge. Use Hunt Post first for the zero-Intel player announcement.",
-      "text": ""
     },
     {
       "category": "Hunt DM",
@@ -788,16 +778,6 @@
     },
     {
       "category": "Hunt DM",
-      "title": "Reset the tracker when you generate a new Hunt target. Intel is shared across the whole Hunting Team; Preparation is shared and caps at 3.",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "HUNT ACTIONS",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
       "title": "Action",
       "text": "Unique Hunt Skill\nPlayer Roll\nTN\nSuccess\nRequirement\nFailure Cue\nCost"
     },
@@ -823,98 +803,13 @@
     },
     {
       "category": "Hunt DM",
-      "title": "Every Hunt Action costs 1 Downtime Slot. Successful Track, Research and Study Weakness actions advance their shared Intel category by 1; Prepare grants 1 shared Preparation, max 3.",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "TRACKS INTEL",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "1 — Rumors",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "2 — Reliable",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
       "title": "3 — Hunter's Insight",
       "text": "The Team may avoid an ambush or choose its starting position when the encounter begins."
     },
     {
       "category": "Hunt DM",
-      "title": "NATURE INTEL",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "1 — Rumors",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "2 — Reliable",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "3 — Hunter's Insight",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "WEAKNESS INTEL",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "1 — Rumors",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "2 — Reliable",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "3 — Hunter's Insight",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "PREPARATION",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "Prep 1 — Countermeasure",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "Prep 2 — Protection",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "Prep 3 — Battlefield",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
       "title": "Spend",
       "text": "Each successful Prepare grants 1 Preparation (max 3). Spend it during the Hunt for an appropriate advantage created by what was actually prepared."
-    },
-    {
-      "category": "Hunt DM",
-      "title": "COMPLICATIONS — 1D6 OR PICK",
-      "text": ""
     },
     {
       "category": "Hunt DM",
@@ -953,58 +848,8 @@
     },
     {
       "category": "Hunt DM",
-      "title": "START THE HUNT",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "Downtime Cost",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "Tracks 3",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "Nature 3",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "Weakness 3",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "Preparation",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
-      "title": "Status",
-      "text": ""
-    },
-    {
-      "category": "Hunt DM",
       "title": "Complete Hunt",
       "text": "The Hunt is completed when the target is killed, captured, driven away, or otherwise neutralised. Everyone in the final encounter counts as having Completed a Hunt for weekly Downtime rewards."
-    },
-    {
-      "category": "Hunt DM",
-      "title": "GM NOTE",
-      "text": ""
-    },
-    {
-      "category": "Hunt Post",
-      "title": "EMBER CORPS — HUNT ANNOUNCEMENT",
-      "text": ""
-    },
-    {
-      "category": "Hunt Post",
-      "title": "Generate a zero-Intel Hunt bulletin for players, plus the private GM context behind it. Change Announcement Reroll to vary the post without changing the monster.",
-      "text": ""
     },
     {
       "category": "Hunt Post",
@@ -1053,46 +898,6 @@
     },
     {
       "category": "Hunt Post",
-      "title": "PLAYER HUNT BOARD POST",
-      "text": ""
-    },
-    {
-      "category": "Hunt Post",
-      "title": "Change Announcement Reroll to generate a different location, incident, source, timing and codename while keeping the same monster.",
-      "text": ""
-    },
-    {
-      "category": "Hunt Post",
-      "title": "GM READOUT — DO NOT POST",
-      "text": ""
-    },
-    {
-      "category": "Hunt Post",
-      "title": "Actual Target",
-      "text": ""
-    },
-    {
-      "category": "Hunt Post",
-      "title": "Location Truth",
-      "text": ""
-    },
-    {
-      "category": "Hunt Post",
-      "title": "Incident Truth",
-      "text": ""
-    },
-    {
-      "category": "Hunt Post",
-      "title": "Escalation if Ignored",
-      "text": ""
-    },
-    {
-      "category": "Hunt Post",
-      "title": "Opening Scene",
-      "text": ""
-    },
-    {
-      "category": "Hunt Post",
       "title": "Safe to Reveal",
       "text": "Threat class, rough creature type, broad last-seen location, reported incident, witness source and obvious physical sign."
     },
@@ -1104,22 +909,12 @@
     {
       "category": "Hunt Post",
       "title": "Next Step",
-      "text": "Post the player bulletin, let up to 4 players form the Hunting Team, then use Hunt DM to resolve Track, Research, Study Weakness and Prepare actions."
+      "text": "Post the player bulletin, let up to 4 players form the Hunting Team, then resolve Track, Research, Study Weakness and Prepare actions."
     },
     {
       "category": "Balance Guide",
-      "title": "Adversary Forge — Balance Guide",
-      "text": ""
-    },
-    {
-      "category": "Balance Guide",
-      "title": "Core rule: party XP establishes a per-character numeric baseline; party size scales durability and a limited amount of tempo, not raw per-hit damage. Threat Class changes encounter purpose and wound/action-economy rules. Mutation slots use a point budget so stronger traits displace other traits instead of stacking for free.",
-      "text": ""
-    },
-    {
-      "category": "Balance Guide",
-      "title": "Threat Class",
-      "text": "Intent\nAP / 20 IC\nMutation Budget\nFrame\nTested XP Band\nGM Rule"
+      "title": "Encounter scaling",
+      "text": "party XP establishes a per-character numeric baseline; party size scales durability and a limited amount of tempo, not raw per-hit damage. Threat Class changes encounter purpose and wound/action-economy rules. Mutation slots use a point budget so stronger traits displace other traits instead of stacking for free."
     },
     {
       "category": "Balance Guide",
@@ -1153,11 +948,6 @@
     },
     {
       "category": "Balance Guide",
-      "title": "Mutation Tier",
-      "text": "Cost\nWhat it can do\nDesign guardrail"
-    },
-    {
-      "category": "Balance Guide",
       "title": "Minor",
       "text": "1.0\nSmall sensory, mobility, resistance or rider benefit.\nShould not decide the encounter by itself."
     },
@@ -1173,18 +963,13 @@
     },
     {
       "category": "Balance Guide",
-      "title": "Multiple-enemy rule: per-creature durability is divided by enemy count, base damage dice are divided by √enemy count, status severity steps down as count rises, and AP gain is throttled. This is a Forge balancing rule added on top of the source monster tables, not an existing published Ember Corps rule.",
-      "text": ""
+      "title": "Multiple enemies",
+      "text": "Per-creature durability is divided by enemy count. Base damage dice are divided by the square root of enemy count. Status severity and AP gain decrease as the count rises."
     },
     {
       "category": "Balance Guide",
-      "title": "Fair-fight checks: (1) do not increase damage simply because the party has more players; (2) control riders are part of the power budget; (3) Titans and Calamities need mission objectives, breakpoints, or weak points; (4) High Intensity is deliberately above the baseline; (5) above 2,500 average XP the current normal-monster tables are extrapolated, so use the warning and sanity-check the result.",
-      "text": ""
-    },
-    {
-      "category": "Balance Guide",
-      "title": "Project source",
-      "text": "URL"
+      "title": "Encounter preparation",
+      "text": "Party size increases durability, not damage per hit. Control effects share the power budget. Give Titans and Calamities objectives and weak points. High Intensity exceeds the standard baseline. Review results above 2,500 average hunter XP."
     },
     {
       "category": "Balance Guide",

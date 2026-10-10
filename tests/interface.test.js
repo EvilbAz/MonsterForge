@@ -29,3 +29,22 @@ test('bestiary opening preserves the selected snapshot when current hunt is arch
 test('share link round-trip preserves Unicode and encounter state',async()=>{
  await click({do:'share'});assert.ok(copied.startsWith('https://example.org/MonsterForge/#import='));location.hash=copied.slice(copied.indexOf('#'));for(const fn of windowListeners.hashchange)await fn();assert.equal(location.hash,'#combat');assert.match(nodes.get('#view').innerHTML,/Bloodied/);
 });
+
+test('illustrated tribe selection submits each tribe through the Forge',async()=>{
+ const NativeFormData=globalThis.FormData;
+ try{
+  await goto('forge');
+  const html=nodes.get('#view').innerHTML;
+  assert.match(html,/<fieldset class="tribe-picker">/);
+  assert.equal((html.match(/type="radio" name="tribe"/g)||[]).length,7);
+  assert.match(html,/classes\/[a-z]+\.svg/);
+  document.querySelector('#forge-form').reportValidity=()=>true;
+  for(const tribe of ['Fang','Colossus','Chitin','Sky','Coil','Mire','Colony']){
+   const config={...JSON.parse(storage.get('ember-monsterforge-v1')).config,tribe,body:'Auto',role:'Auto',mutation:'Auto',element:'Auto'};
+   globalThis.FormData=class{constructor(){return new Map(Object.entries(config));}};
+   await dispatch('submit',{target:{id:'forge-form',matches:()=>true},preventDefault(){}});
+   assert.equal(JSON.parse(storage.get('ember-monsterforge-v1')).config.tribe,tribe);
+   assert.ok(nodes.get('#view').innerHTML.includes(`value="${tribe}" checked`));
+  }
+ }finally{globalThis.FormData=NativeFormData;}
+});
